@@ -1,9 +1,8 @@
-#6650 final project
+# Collaborative Electronic Medical Record
 
-We have also record a demo video. As we need to demonstrate all function in details, 
-the video is a litte bit long(about 12 minute). Please feel to speed up when watching.
+Distributed system project
  
-#Getting start
+# Getting start
 
 before getting start, please add commons-io-2.11.0.jar, log4j-1.2.17.jar, rmiio-2.1.2.jar
 to the library.
@@ -13,7 +12,6 @@ Start central server:
 Firstly, start central server and input six ports number for central server and affiliated 
 servers. Like "19000 19001 19002 19003 19004 19005", 19000 for central server, others for
 affiliated server.
-
 
 Start Client:
 Secondly, run client. Connect to central server, then input commands.
@@ -27,7 +25,7 @@ Run admin if need to kill or restart a server.
 All related files will be save in dir like ./server_data_19001,./server_data_19002..
 
 
-#Client Command:
+# Client Command:
 
 - help: show help message 
 
@@ -47,7 +45,6 @@ create sectionNum files, index from 0.
 
 example:
 	-create a 3
-
 
 - edit DOC SEC: choose a document to edit
 
@@ -72,7 +69,7 @@ example:
   - send hello
   
  
- #Admin:
+ # Admin:
  
 - kill SERVER: shut down a server.
 	-kill 19001
