@@ -1,0 +1,1874 @@
+2022-04-25 20:07:01:400 INFO  CentralServer:71 - Invalid Input!
+2022-04-25 20:07:24:994 DEBUG CentralServer:105 - Central Server Coordinator 19000 is running...
+2022-04-25 20:07:25:211 DEBUG Server:36 - Trying to connect to:19001
+2022-04-25 20:07:25:212 DEBUG Server:41 - Store server  at port 19001 is running...
+2022-04-25 20:07:25:213 DEBUG Server:36 - Trying to connect to:19002
+2022-04-25 20:07:25:213 DEBUG Server:41 - Store server  at port 19002 is running...
+2022-04-25 20:07:25:214 DEBUG Server:36 - Trying to connect to:19003
+2022-04-25 20:07:25:214 DEBUG Server:41 - Store server  at port 19003 is running...
+2022-04-25 20:07:25:214 DEBUG Server:36 - Trying to connect to:19004
+2022-04-25 20:07:25:215 DEBUG Server:41 - Store server  at port 19004 is running...
+2022-04-25 20:07:25:215 DEBUG Server:36 - Trying to connect to:19005
+2022-04-25 20:07:25:215 DEBUG Server:41 - Store server  at port 19005 is running...
+2022-04-28 14:39:33:375 DEBUG CentralServer:105 - Central Server Coordinator 19000 is running...
+2022-04-28 14:39:33:383 DEBUG Server:36 - Trying to connect to:19001
+2022-04-28 14:39:33:385 DEBUG Server:41 - Store server  at port 19001 is running...
+2022-04-28 14:39:33:386 DEBUG Server:36 - Trying to connect to:19002
+2022-04-28 14:39:33:387 DEBUG Server:41 - Store server  at port 19002 is running...
+2022-04-28 14:39:33:388 DEBUG Server:36 - Trying to connect to:19003
+2022-04-28 14:39:33:388 DEBUG Server:41 - Store server  at port 19003 is running...
+2022-04-28 14:39:33:389 DEBUG Server:36 - Trying to connect to:19004
+2022-04-28 14:39:33:389 DEBUG Server:41 - Store server  at port 19004 is running...
+2022-04-28 14:39:33:390 DEBUG Server:36 - Trying to connect to:19005
+2022-04-28 14:39:33:390 DEBUG Server:41 - Store server  at port 19005 is running...
+2022-04-28 14:40:22:331 INFO  Proposer:24 - Reqeust Received: put john 88
+2022-04-28 14:40:22:333 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-04-28 14:40:22:334 DEBUG Acceptor:36 - Server 19002 NO response: PREPARE REJECTED
+2022-04-28 14:40:22:334 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-04-28 14:40:22:334 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-04-28 14:40:22:335 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-04-28 14:40:22:335 INFO  Proposer:37 - Prepared count: 4
+2022-04-28 14:40:22:336 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-04-28 14:40:22:336 DEBUG Acceptor:77 - Server 19002 NO response: ACCEPT REJECTED
+2022-04-28 14:40:22:336 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-04-28 14:40:22:337 DEBUG Acceptor:77 - Server 19004 NO response: ACCEPT REJECTED
+2022-04-28 14:40:22:337 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-04-28 14:40:22:337 INFO  Proposer:53 - Acceptor count: 3
+2022-04-28 14:40:22:337 INFO  Proposer:60 - Proposal: put john 88 SUCCESS PREPARED and ACCEPTED
+2022-04-28 14:40:22:349 DEBUG StoreImpl:46 - Server 19001 Put key john with value 88 SUCCESS
+2022-04-28 14:40:22:349 DEBUG StoreImpl:46 - Server 19002 Put key john with value 88 SUCCESS
+2022-04-28 14:40:22:350 DEBUG StoreImpl:46 - Server 19003 Put key john with value 88 SUCCESS
+2022-04-28 14:40:22:350 DEBUG StoreImpl:46 - Server 19004 Put key john with value 88 SUCCESS
+2022-04-28 14:40:22:350 DEBUG StoreImpl:46 - Server 19005 Put key john with value 88 SUCCESS
+2022-04-28 14:40:32:816 INFO  StoreImpl:72 - Server 19004 The value with key john is: 88
+2022-05-02 13:29:17:476 DEBUG CentralServer:115 - Central Server Coordinator 19000 is running...
+2022-05-02 13:29:17:493 DEBUG CentralServer:54 - Server  at port 19001 is running...
+2022-05-02 13:29:17:495 DEBUG CentralServer:54 - Server  at port 19002 is running...
+2022-05-02 13:29:17:495 DEBUG CentralServer:54 - Server  at port 19003 is running...
+2022-05-02 13:29:17:496 DEBUG CentralServer:54 - Server  at port 19004 is running...
+2022-05-02 13:29:17:498 DEBUG CentralServer:54 - Server  at port 19005 is running...
+2022-05-02 13:33:59:321 INFO  Server:93 - Server 19002 is shutting down...
+2022-05-02 13:33:59:321 INFO  Server:93 - Server 19001 is shutting down...
+2022-05-02 13:33:59:321 INFO  Server:93 - Server 19003 is shutting down...
+2022-05-02 13:33:59:321 INFO  Server:93 - Server 19005 is shutting down...
+2022-05-02 13:33:59:321 INFO  Server:93 - Server 19004 is shutting down...
+2022-05-02 13:40:53:414 INFO  CentralServer:81 - Invalid Input!
+2022-05-02 13:41:31:353 DEBUG CentralServer:115 - Central Server Coordinator 19000 is running...
+2022-05-02 13:41:31:369 DEBUG CentralServer:54 - Server  at port 19001 is running...
+2022-05-02 13:41:31:370 DEBUG CentralServer:54 - Server  at port 19002 is running...
+2022-05-02 13:41:31:371 DEBUG CentralServer:54 - Server  at port 19003 is running...
+2022-05-02 13:41:31:372 DEBUG CentralServer:54 - Server  at port 19004 is running...
+2022-05-02 13:41:31:374 DEBUG CentralServer:54 - Server  at port 19005 is running...
+2022-05-02 13:42:17:654 DEBUG CentralServer:138 - Server 19001 is killed.
+2022-05-02 13:42:17:657 DEBUG Admin:49 - Server 19001 is killed.
+2022-05-02 14:16:18:233 INFO  Server:93 - Server 19001 is shutting down...
+2022-05-02 14:16:18:234 INFO  Server:93 - Server 19005 is shutting down...
+2022-05-02 14:16:18:234 INFO  Server:93 - Server 19004 is shutting down...
+2022-05-02 14:16:18:234 INFO  Server:93 - Server 19003 is shutting down...
+2022-05-02 14:16:18:234 INFO  Server:93 - Server 19002 is shutting down...
+2022-05-02 14:17:29:629 DEBUG CentralServer:114 - Central Server Coordinator 19000 is running...
+2022-05-02 14:17:29:665 DEBUG CentralServer:53 - Server  at port 19001 is running...
+2022-05-02 14:17:29:668 DEBUG CentralServer:53 - Server  at port 19002 is running...
+2022-05-02 14:17:29:670 DEBUG CentralServer:53 - Server  at port 19003 is running...
+2022-05-02 14:17:29:674 DEBUG CentralServer:53 - Server  at port 19004 is running...
+2022-05-02 14:17:29:678 DEBUG CentralServer:53 - Server  at port 19005 is running...
+2022-05-02 14:18:39:170 ERROR Client:93 - java.lang.RuntimeException: Unable to connect to a live server!
+2022-05-02 14:18:39:174 INFO  Client:60 - Marc is shutting down...
+2022-05-02 14:30:55:065 ERROR Client:93 - java.lang.RuntimeException: Unable to connect to a live server!
+2022-05-02 14:30:55:068 INFO  Client:60 - marc is shutting down...
+2022-05-02 14:43:27:279 DEBUG CentralServer:114 - Central Server Coordinator 19000 is running...
+2022-05-02 14:43:27:312 DEBUG CentralServer:53 - Server  at port 19001 is running...
+2022-05-02 14:43:27:314 DEBUG CentralServer:53 - Server  at port 19002 is running...
+2022-05-02 14:43:27:317 DEBUG CentralServer:53 - Server  at port 19003 is running...
+2022-05-02 14:43:27:320 DEBUG CentralServer:53 - Server  at port 19004 is running...
+2022-05-02 14:43:27:323 DEBUG CentralServer:53 - Server  at port 19005 is running...
+2022-05-02 14:43:46:670 ERROR Client:93 - java.lang.RuntimeException: Unable to connect to a live server!
+2022-05-02 14:43:46:673 INFO  Client:60 - marc is shutting down...
+2022-05-02 14:54:07:783 INFO  Server:93 - Server 19004 is shutting down...
+2022-05-02 14:54:07:783 INFO  Server:93 - Server 19003 is shutting down...
+2022-05-02 14:54:07:783 INFO  Server:93 - Server 19001 is shutting down...
+2022-05-02 14:54:07:783 INFO  Server:93 - Server 19002 is shutting down...
+2022-05-02 14:54:07:783 INFO  Server:93 - Server 19005 is shutting down...
+2022-05-02 14:54:38:342 INFO  CentralServer:80 - Invalid Input!
+2022-05-02 14:55:25:575 DEBUG CentralServer:114 - Central Server Coordinator 19000 is running...
+2022-05-02 14:55:25:605 DEBUG CentralServer:53 - Server  at port 19001 is running...
+2022-05-02 14:55:25:607 DEBUG CentralServer:53 - Server  at port 19002 is running...
+2022-05-02 14:55:25:610 DEBUG CentralServer:53 - Server  at port 19003 is running...
+2022-05-02 14:55:25:612 DEBUG CentralServer:53 - Server  at port 19004 is running...
+2022-05-02 14:55:25:615 DEBUG CentralServer:53 - Server  at port 19005 is running...
+2022-05-02 14:55:48:498 ERROR Client:93 - java.lang.RuntimeException: Unable to connect to a live server!
+2022-05-02 14:55:48:501 INFO  Client:60 - marc is shutting down...
+2022-05-02 15:04:12:151 INFO  Server:93 - Server 19003 is shutting down...
+2022-05-02 15:04:12:152 INFO  Server:93 - Server 19001 is shutting down...
+2022-05-02 15:04:12:151 INFO  Server:93 - Server 19002 is shutting down...
+2022-05-02 15:04:12:152 INFO  Server:93 - Server 19005 is shutting down...
+2022-05-02 15:04:12:151 INFO  Server:93 - Server 19004 is shutting down...
+2022-05-02 15:04:46:623 DEBUG CentralServer:114 - Central Server Coordinator 19000 is running...
+2022-05-02 15:04:46:652 DEBUG CentralServer:53 - Server  at port 19001 is running...
+2022-05-02 15:04:46:654 DEBUG CentralServer:53 - Server  at port 19002 is running...
+2022-05-02 15:04:46:656 DEBUG CentralServer:53 - Server  at port 19003 is running...
+2022-05-02 15:04:46:659 DEBUG CentralServer:53 - Server  at port 19004 is running...
+2022-05-02 15:04:46:662 DEBUG CentralServer:53 - Server  at port 19005 is running...
+2022-05-02 15:05:01:362 ERROR Client:93 - java.lang.RuntimeException: Unable to connect to a live server!
+2022-05-02 15:05:01:365 INFO  Client:60 - marc is shutting down...
+2022-05-02 15:08:18:090 INFO  Server:93 - Server 19004 is shutting down...
+2022-05-02 15:08:18:090 INFO  Server:93 - Server 19005 is shutting down...
+2022-05-02 15:08:18:090 INFO  Server:93 - Server 19001 is shutting down...
+2022-05-02 15:08:18:090 INFO  Server:93 - Server 19002 is shutting down...
+2022-05-02 15:08:18:090 INFO  Server:93 - Server 19003 is shutting down...
+2022-05-02 15:08:57:359 DEBUG CentralServer:114 - Central Server Coordinator 19000 is running...
+2022-05-02 15:08:57:388 DEBUG CentralServer:53 - Server  at port 19001 is running...
+2022-05-02 15:08:57:391 DEBUG CentralServer:53 - Server  at port 19002 is running...
+2022-05-02 15:08:57:394 DEBUG CentralServer:53 - Server  at port 19003 is running...
+2022-05-02 15:08:57:397 DEBUG CentralServer:53 - Server  at port 19004 is running...
+2022-05-02 15:08:57:399 DEBUG CentralServer:53 - Server  at port 19005 is running...
+2022-05-02 15:09:22:659 DEBUG CentralServer:130 - Server port: 19001is assigned to client.
+2022-05-02 15:09:22:662 INFO  Client:275 - Connected to server: 19001
+2022-05-02 15:10:55:990 INFO  Client:135 - Client Command Summary:
+  help: to show this help message
+
+  register DOCTOR PWD: to register a new account with doctorName DOCTOR and password PWD
+  login DOCTOR PWD: to login using doctorName DOCTOR and PWD credentials
+  create PATIENT_FILE SECTION: to create a new file PATIENT_FILE and contains SECTION sections
+  edit PATIENT_FILE SECTION: to edit the section of patient file
+  stopedit: to stop the current editing session if exists
+  showsec PATIENT_FILE SECTION: to download the content of the SECTION section of patient file
+  showdoc DOC: to download the entire patient file with all sections 
+  logout: to logout
+  list: to list all the accessible and editable patient files
+  share DOCTOR PATIENT_FILE: to share a patient file with another doctor
+  news: to get all the news
+  unread: to retrieve all the unread chat messages
+  send TEXT: to send the TEXT message regarding the document being edited
+  
+2022-05-02 15:15:09:561 DEBUG CentralServer:149 - Server 19001 is killed.
+2022-05-02 15:15:09:565 DEBUG Admin:49 - Server 19001 is killed.
+2022-05-02 15:15:32:583 ERROR Client:536 - You're not logged in
+2022-05-02 15:15:42:236 DEBUG Client:256 - Unsupported arguments. Please try again.
+2022-05-02 15:16:25:439 INFO  Proposer:24 - Reqeust Received: CreateUser: marc
+2022-05-02 15:16:25:440 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 15:16:25:441 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 15:16:25:441 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 15:16:25:441 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 15:16:25:442 INFO  Proposer:37 - Prepared count: 4
+2022-05-02 15:16:25:442 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 15:16:25:442 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 15:16:25:443 DEBUG Acceptor:77 - Server 19004 NO response: ACCEPT REJECTED
+2022-05-02 15:16:25:444 DEBUG Acceptor:77 - Server 19005 NO response: ACCEPT REJECTED
+2022-05-02 15:16:25:445 INFO  Proposer:53 - Acceptor count: 2
+2022-05-02 15:16:25:445 INFO  Proposer:56 - Proposal: CreateUser: marc NOT ACCEPTED
+2022-05-02 15:16:25:451 ERROR Client:296 - Request aborted.
+2022-05-02 15:21:55:660 INFO  Client:60 - marc is shutting down...
+2022-05-02 15:22:01:217 INFO  Server:93 - Server 19002 is shutting down...
+2022-05-02 15:22:01:217 INFO  Server:93 - Server 19004 is shutting down...
+2022-05-02 15:22:01:217 INFO  Server:93 - Server 19001 is shutting down...
+2022-05-02 15:22:01:217 INFO  Server:93 - Server 19005 is shutting down...
+2022-05-02 15:22:01:217 INFO  Server:93 - Server 19003 is shutting down...
+2022-05-02 15:24:54:660 DEBUG CentralServer:114 - Central Server Coordinator 19000 is running...
+2022-05-02 15:24:54:690 DEBUG CentralServer:53 - Server  at port 19001 is running...
+2022-05-02 15:24:54:692 DEBUG CentralServer:53 - Server  at port 19002 is running...
+2022-05-02 15:24:54:695 DEBUG CentralServer:53 - Server  at port 19003 is running...
+2022-05-02 15:24:54:697 DEBUG CentralServer:53 - Server  at port 19004 is running...
+2022-05-02 15:24:54:700 DEBUG CentralServer:53 - Server  at port 19005 is running...
+2022-05-02 15:25:19:236 DEBUG CentralServer:130 - Server port: 19001is assigned to client.
+2022-05-02 15:25:19:239 INFO  Client:275 - Connected to server: 19001
+2022-05-02 15:26:17:190 INFO  Client:135 - Client Command Summary:
+  help: to show this help message
+
+  register DOCTOR PWD: to register a new account with doctorName DOCTOR and password PWD
+  login DOCTOR PWD: to login using doctorName DOCTOR and PWD credentials
+  create PATIENT_FILE SECTION: to create a new file PATIENT_FILE and contains SECTION sections
+  edit PATIENT_FILE SECTION: to edit the section of patient file
+  stopedit: to stop the current editing session if exists
+  showsec PATIENT_FILE SECTION: to download the content of the SECTION section of patient file
+  showdoc DOC: to download the entire patient file with all sections 
+  logout: to logout
+  list: to list all the accessible and editable patient files
+  share DOCTOR PATIENT_FILE: to share a patient file with another doctor
+  news: to get all the news
+  unread: to retrieve all the unread chat messages
+  send TEXT: to send the TEXT message regarding the document being edited
+  
+2022-05-02 15:26:40:743 ERROR Client:628 - You're not logged in
+2022-05-02 15:26:50:531 ERROR Client:646 - You're not logged in
+2022-05-02 15:27:20:558 INFO  Proposer:24 - Reqeust Received: CreateUser: marc
+2022-05-02 15:27:20:559 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 15:27:20:560 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 15:27:20:560 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 15:27:20:560 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 15:27:20:560 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 15:27:20:561 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 15:27:20:561 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 15:27:20:562 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 15:27:20:563 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 15:27:20:563 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 15:27:20:563 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 15:27:20:563 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 15:27:20:564 INFO  Proposer:60 - Proposal: CreateUser: marc SUCCESS PREPARED and ACCEPTED
+2022-05-02 15:27:20:786 INFO  Server:217 - Server 19001CREATE_USER: SUCCESS
+2022-05-02 15:27:20:787 INFO  Server:218 - Create user succeed
+2022-05-02 15:27:20:791 INFO  Client:294 - User marc registered successfully!
+2022-05-02 15:28:09:856 DEBUG Client:256 - Unsupported arguments. Please try again.
+2022-05-02 15:28:47:126 ERROR Client:379 - You're not logged in
+2022-05-02 15:29:39:720 INFO  Proposer:24 - Reqeust Received: loginmarc
+2022-05-02 15:29:39:720 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 15:29:39:721 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 15:29:39:721 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 15:29:39:721 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 15:29:39:721 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 15:29:39:721 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 15:29:39:721 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 15:29:39:722 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 15:29:39:722 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 15:29:39:722 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 15:29:39:722 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 15:29:39:722 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 15:29:39:722 INFO  Proposer:60 - Proposal: loginmarc SUCCESS PREPARED and ACCEPTED
+2022-05-02 15:29:39:991 INFO  Server:264 - Server 19001LOGIN: SUCCESS
+2022-05-02 15:29:39:992 INFO  Server:265 - New user logged in: marc
+2022-05-02 15:29:39:994 INFO  Client:325 - Logged in successfully as marc
+2022-05-02 15:29:46:990 INFO  Proposer:24 - Reqeust Received: Create_document: marc
+2022-05-02 15:29:46:990 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 15:29:46:990 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 15:29:46:990 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 15:29:46:990 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 15:29:46:991 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 15:29:46:991 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 15:29:46:991 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 15:29:46:991 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 15:29:46:991 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 15:29:46:992 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 15:29:46:992 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 15:29:46:992 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 15:29:46:992 INFO  Proposer:60 - Proposal: Create_document: marc SUCCESS PREPARED and ACCEPTED
+2022-05-02 15:29:47:009 INFO  Server:481 - Server 19001CREATE_DOCUMENT: SUCCESS
+2022-05-02 15:29:47:009 INFO  Server:482 - File successfully created: Andy
+2022-05-02 15:29:47:010 INFO  Client:378 - Successfully create a new document.
+2022-05-02 15:30:24:437 INFO  Proposer:24 - Reqeust Received: Edit: 
+2022-05-02 15:30:24:437 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 15:30:24:437 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 15:30:24:438 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 15:30:24:438 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 15:30:24:438 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 15:30:24:438 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 15:30:24:438 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 15:30:24:438 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 15:30:24:438 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 15:30:24:438 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 15:30:24:439 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 15:30:24:439 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 15:30:24:439 INFO  Proposer:60 - Proposal: Edit:  SUCCESS PREPARED and ACCEPTED
+2022-05-02 15:30:24:467 INFO  Server:368 - Server 19001EDIT: SUCCESS
+2022-05-02 15:30:24:470 INFO  RemoteStreamExporter:77 - Using stream exporter com.healthmarketscience.rmiio.exporter.DefaultRemoteStreamExporter
+2022-05-02 15:30:24:470 DEBUG RemoteStreamExporter:121 - Exporting remote object com.healthmarketscience.rmiio.SimpleRemoteInputStream@6f8085f3
+2022-05-02 15:43:08:080 DEBUG RemoteStreamExporter:162 - Unexporting remote object com.healthmarketscience.rmiio.SimpleRemoteInputStream@6f8085f3
+2022-05-02 15:50:47:357 INFO  Server:93 - Server 19004 is shutting down...
+2022-05-02 15:50:47:357 INFO  Server:93 - Server 19005 is shutting down...
+2022-05-02 15:50:47:357 INFO  Server:93 - Server 19003 is shutting down...
+2022-05-02 15:50:47:357 INFO  Server:93 - Server 19001 is shutting down...
+2022-05-02 15:50:47:357 INFO  Server:93 - Server 19002 is shutting down...
+2022-05-02 15:51:02:347 DEBUG CentralServer:114 - Central Server Coordinator 19000 is running...
+2022-05-02 15:51:02:366 DEBUG CentralServer:53 - Server  at port 19001 is running...
+2022-05-02 15:51:02:366 DEBUG CentralServer:53 - Server  at port 19002 is running...
+2022-05-02 15:51:02:367 DEBUG CentralServer:53 - Server  at port 19003 is running...
+2022-05-02 15:51:02:368 DEBUG CentralServer:53 - Server  at port 19004 is running...
+2022-05-02 15:51:02:370 DEBUG CentralServer:53 - Server  at port 19005 is running...
+2022-05-02 15:51:11:242 INFO  Client:60 - marc is shutting down...
+2022-05-02 15:51:20:580 DEBUG CentralServer:130 - Server port: 19001is assigned to client.
+2022-05-02 15:51:20:582 INFO  Client:275 - Connected to server: 19001
+2022-05-02 15:51:24:807 INFO  Client:135 - Client Command Summary:
+  help: to show this help message
+
+  register DOCTOR PWD: to register a new account with doctorName DOCTOR and password PWD
+  login DOCTOR PWD: to login using doctorName DOCTOR and PWD credentials
+  create PATIENT_FILE SECTION: to create a new file PATIENT_FILE and contains SECTION sections
+  edit PATIENT_FILE SECTION: to edit the section of patient file
+  stopedit: to stop the current editing session if exists
+  showsec PATIENT_FILE SECTION: to download the content of the SECTION section of patient file
+  showdoc DOC: to download the entire patient file with all sections 
+  logout: to logout
+  list: to list all the accessible and editable patient files
+  share DOCTOR PATIENT_FILE: to share a patient file with another doctor
+  news: to get all the news
+  unread: to retrieve all the unread chat messages
+  send TEXT: to send the TEXT message regarding the document being edited
+  
+2022-05-02 15:55:48:114 ERROR Client:317 - Unregistered or password do not match.
+2022-05-02 15:56:13:284 INFO  Proposer:24 - Reqeust Received: CreateUser: marc
+2022-05-02 15:56:13:286 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 15:56:13:286 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 15:56:13:287 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 15:56:13:287 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 15:56:13:287 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 15:56:13:288 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 15:56:13:289 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 15:56:13:289 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 15:56:13:291 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 15:56:13:291 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 15:56:13:291 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 15:56:13:292 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 15:56:13:292 INFO  Proposer:60 - Proposal: CreateUser: marc SUCCESS PREPARED and ACCEPTED
+2022-05-02 15:56:13:339 INFO  Server:218 - Server 19001CREATE_USER: SUCCESS
+2022-05-02 15:56:13:339 INFO  Server:219 - Create user succeed
+2022-05-02 15:56:13:340 INFO  Client:294 - User marc registered successfully!
+2022-05-02 15:57:03:365 INFO  Proposer:24 - Reqeust Received: loginmarc
+2022-05-02 15:57:03:366 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 15:57:03:366 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 15:57:03:367 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 15:57:03:367 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 15:57:03:367 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 15:57:03:368 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 15:57:03:368 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 15:57:03:369 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 15:57:03:369 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 15:57:03:369 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 15:57:03:369 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 15:57:03:370 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 15:57:03:370 INFO  Proposer:60 - Proposal: loginmarc SUCCESS PREPARED and ACCEPTED
+2022-05-02 15:57:03:407 INFO  Server:265 - Server 19001LOGIN: SUCCESS
+2022-05-02 15:57:03:407 INFO  Server:266 - New user logged in: marc
+2022-05-02 15:57:03:411 INFO  Client:325 - Logged in successfully as marc
+2022-05-02 15:57:19:040 ERROR Client:381 - 
+2022-05-02 15:57:19:041 ERROR Client:259 - Internal error. Please try again.
+2022-05-02 15:57:42:367 ERROR Client:381 - 
+2022-05-02 15:57:42:368 ERROR Client:259 - Internal error. Please try again.
+2022-05-02 16:00:17:571 INFO  Client:60 - marc is shutting down...
+2022-05-02 16:00:49:431 DEBUG CentralServer:130 - Server port: 19001is assigned to client.
+2022-05-02 16:00:49:433 INFO  Client:275 - Connected to server: 19001
+2022-05-02 16:00:57:381 INFO  Client:135 - Client Command Summary:
+  help: to show this help message
+
+  register DOCTOR PWD: to register a new account with doctorName DOCTOR and password PWD
+  login DOCTOR PWD: to login using doctorName DOCTOR and PWD credentials
+  create PATIENT_FILE SECTION: to create a new file PATIENT_FILE and contains SECTION sections
+  edit PATIENT_FILE SECTION: to edit the section of patient file
+  stopedit: to stop the current editing session if exists
+  showsec PATIENT_FILE SECTION: to download the content of the SECTION section of patient file
+  showdoc DOC: to download the entire patient file with all sections 
+  logout: to logout
+  list: to list all the accessible and editable patient files
+  share DOCTOR PATIENT_FILE: to share a patient file with another doctor
+  news: to get all the news
+  unread: to retrieve all the unread chat messages
+  send TEXT: to send the TEXT message regarding the document being edited
+  
+2022-05-02 16:01:07:251 ERROR Client:296 - Username already exists
+2022-05-02 16:01:21:727 ERROR Client:317 - Already logged in.
+2022-05-02 16:01:30:956 ERROR Client:379 - You're not logged in
+2022-05-02 16:02:41:403 ERROR Client:317 - Already logged in.
+2022-05-02 16:02:47:705 ERROR Client:536 - You're not logged in
+2022-05-02 16:02:57:244 INFO  Client:60 - marc is shutting down...
+2022-05-02 16:03:13:470 DEBUG CentralServer:130 - Server port: 19001is assigned to client.
+2022-05-02 16:03:13:472 INFO  Client:275 - Connected to server: 19001
+2022-05-02 16:03:16:668 INFO  Client:135 - Client Command Summary:
+  help: to show this help message
+
+  register DOCTOR PWD: to register a new account with doctorName DOCTOR and password PWD
+  login DOCTOR PWD: to login using doctorName DOCTOR and PWD credentials
+  create PATIENT_FILE SECTION: to create a new file PATIENT_FILE and contains SECTION sections
+  edit PATIENT_FILE SECTION: to edit the section of patient file
+  stopedit: to stop the current editing session if exists
+  showsec PATIENT_FILE SECTION: to download the content of the SECTION section of patient file
+  showdoc DOC: to download the entire patient file with all sections 
+  logout: to logout
+  list: to list all the accessible and editable patient files
+  share DOCTOR PATIENT_FILE: to share a patient file with another doctor
+  news: to get all the news
+  unread: to retrieve all the unread chat messages
+  send TEXT: to send the TEXT message regarding the document being edited
+  
+2022-05-02 16:03:24:263 INFO  Proposer:24 - Reqeust Received: CreateUser: sara
+2022-05-02 16:03:24:264 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 16:03:24:264 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 16:03:24:264 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 16:03:24:264 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 16:03:24:264 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 16:03:24:265 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 16:03:24:265 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 16:03:24:265 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 16:03:24:265 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 16:03:24:265 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 16:03:24:265 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 16:03:24:265 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 16:03:24:266 INFO  Proposer:60 - Proposal: CreateUser: sara SUCCESS PREPARED and ACCEPTED
+2022-05-02 16:03:24:279 INFO  Server:218 - Server 19001CREATE_USER: SUCCESS
+2022-05-02 16:03:24:279 INFO  Server:219 - Create user succeed
+2022-05-02 16:03:24:282 INFO  Client:294 - User sara registered successfully!
+2022-05-02 16:03:31:255 ERROR Client:379 - You're not logged in
+2022-05-02 16:04:18:763 INFO  Proposer:24 - Reqeust Received: loginsara
+2022-05-02 16:04:18:763 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 16:04:18:763 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 16:04:18:763 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 16:04:18:764 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 16:04:18:764 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 16:04:18:764 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 16:04:18:765 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 16:04:18:765 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 16:04:18:766 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 16:04:18:766 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 16:04:18:766 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 16:04:18:766 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 16:04:18:766 INFO  Proposer:60 - Proposal: loginsara SUCCESS PREPARED and ACCEPTED
+2022-05-02 16:04:18:779 INFO  Server:265 - Server 19001LOGIN: SUCCESS
+2022-05-02 16:04:18:779 INFO  Server:266 - New user logged in: sara
+2022-05-02 16:04:18:781 INFO  Client:325 - Logged in successfully as sara
+2022-05-02 16:04:26:195 ERROR Client:381 - 
+2022-05-02 16:04:26:196 ERROR Client:259 - Internal error. Please try again.
+2022-05-02 16:16:03:397 INFO  Server:94 - Server 19004 is shutting down...
+2022-05-02 16:16:03:397 INFO  Server:94 - Server 19001 is shutting down...
+2022-05-02 16:16:03:397 INFO  Server:94 - Server 19002 is shutting down...
+2022-05-02 16:16:03:397 INFO  Server:94 - Server 19005 is shutting down...
+2022-05-02 16:16:03:397 INFO  Server:94 - Server 19003 is shutting down...
+2022-05-02 16:16:24:425 DEBUG CentralServer:114 - Central Server Coordinator 19000 is running...
+2022-05-02 16:16:24:456 DEBUG CentralServer:53 - Server  at port 19001 is running...
+2022-05-02 16:16:24:460 DEBUG CentralServer:53 - Server  at port 19002 is running...
+2022-05-02 16:16:24:463 DEBUG CentralServer:53 - Server  at port 19003 is running...
+2022-05-02 16:16:24:466 DEBUG CentralServer:53 - Server  at port 19004 is running...
+2022-05-02 16:16:24:469 DEBUG CentralServer:53 - Server  at port 19005 is running...
+2022-05-02 16:16:40:700 INFO  Client:60 - Sara is shutting down...
+2022-05-02 16:16:50:419 DEBUG CentralServer:130 - Server port: 19001is assigned to client.
+2022-05-02 16:16:50:422 INFO  Client:275 - Connected to server: 19001
+2022-05-02 16:17:00:065 INFO  Client:135 - Client Command Summary:
+  help: to show this help message
+
+  register DOCTOR PWD: to register a new account with doctorName DOCTOR and password PWD
+  login DOCTOR PWD: to login using doctorName DOCTOR and PWD credentials
+  create PATIENT_FILE SECTION: to create a new file PATIENT_FILE and contains SECTION sections
+  edit PATIENT_FILE SECTION: to edit the section of patient file
+  stopedit: to stop the current editing session if exists
+  showsec PATIENT_FILE SECTION: to download the content of the SECTION section of patient file
+  showdoc DOC: to download the entire patient file with all sections 
+  logout: to logout
+  list: to list all the accessible and editable patient files
+  share DOCTOR PATIENT_FILE: to share a patient file with another doctor
+  news: to get all the news
+  unread: to retrieve all the unread chat messages
+  send TEXT: to send the TEXT message regarding the document being edited
+  
+2022-05-02 16:17:06:308 ERROR Client:296 - Username already exists
+2022-05-02 16:18:39:149 INFO  Proposer:24 - Reqeust Received: loginmarc
+2022-05-02 16:18:39:152 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 16:18:39:152 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 16:18:39:153 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 16:18:39:153 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 16:18:39:153 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 16:18:39:153 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 16:18:39:154 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 16:18:39:154 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 16:18:39:155 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 16:18:39:156 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 16:18:39:156 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 16:18:39:156 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 16:18:39:156 INFO  Proposer:60 - Proposal: loginmarc SUCCESS PREPARED and ACCEPTED
+2022-05-02 16:18:39:406 INFO  Server:265 - Server 19001LOGIN: SUCCESS
+2022-05-02 16:18:39:406 INFO  Server:266 - New user logged in: marc
+2022-05-02 16:18:39:413 INFO  Client:325 - Logged in successfully as marc
+2022-05-02 16:18:45:122 ERROR Client:381 - 
+2022-05-02 16:18:45:124 ERROR Client:259 - Internal error. Please try again.
+2022-05-02 16:27:15:476 INFO  Client:60 - marc is shutting down...
+2022-05-02 16:27:31:669 DEBUG CentralServer:130 - Server port: 19001is assigned to client.
+2022-05-02 16:27:31:671 INFO  Client:275 - Connected to server: 19001
+2022-05-02 16:27:38:222 ERROR Client:317 - Already logged in.
+2022-05-02 16:27:54:937 ERROR Client:379 - You're not logged in
+2022-05-02 16:28:29:961 ERROR Client:352 - You're not logged in
+2022-05-02 16:28:29:962 INFO  Client:135 - Client Command Summary:
+  help: to show this help message
+
+  register DOCTOR PWD: to register a new account with doctorName DOCTOR and password PWD
+  login DOCTOR PWD: to login using doctorName DOCTOR and PWD credentials
+  create PATIENT_FILE SECTION: to create a new file PATIENT_FILE and contains SECTION sections
+  edit PATIENT_FILE SECTION: to edit the section of patient file
+  stopedit: to stop the current editing session if exists
+  showsec PATIENT_FILE SECTION: to download the content of the SECTION section of patient file
+  showdoc DOC: to download the entire patient file with all sections 
+  logout: to logout
+  list: to list all the accessible and editable patient files
+  share DOCTOR PATIENT_FILE: to share a patient file with another doctor
+  news: to get all the news
+  unread: to retrieve all the unread chat messages
+  send TEXT: to send the TEXT message regarding the document being edited
+  
+2022-05-02 16:28:36:875 ERROR Client:352 - You're not logged in
+2022-05-02 16:28:46:553 ERROR Client:296 - Username already exists
+2022-05-02 16:28:53:840 INFO  Proposer:24 - Reqeust Received: loginsara
+2022-05-02 16:28:53:841 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 16:28:53:841 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 16:28:53:841 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 16:28:53:841 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 16:28:53:842 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 16:28:53:842 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 16:28:53:842 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 16:28:53:842 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 16:28:53:843 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 16:28:53:843 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 16:28:53:843 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 16:28:53:844 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 16:28:53:844 INFO  Proposer:60 - Proposal: loginsara SUCCESS PREPARED and ACCEPTED
+2022-05-02 16:28:53:861 INFO  Server:265 - Server 19001LOGIN: SUCCESS
+2022-05-02 16:28:53:862 INFO  Server:266 - New user logged in: sara
+2022-05-02 16:28:53:865 INFO  Client:325 - Logged in successfully as sara
+2022-05-02 16:45:37:719 ERROR Client:381 - 
+2022-05-02 16:45:37:721 ERROR Client:259 - Internal error. Please try again.
+2022-05-02 16:45:37:801 INFO  Client:60 - matc is shutting down...
+2022-05-02 16:45:47:816 DEBUG CentralServer:130 - Server port: 19001is assigned to client.
+2022-05-02 16:45:47:819 INFO  Client:275 - Connected to server: 19001
+2022-05-02 16:45:59:561 ERROR Client:317 - Already logged in.
+2022-05-02 16:46:12:229 ERROR Client:379 - You're not logged in
+2022-05-02 16:46:24:875 ERROR Client:352 - You're not logged in
+2022-05-02 16:46:42:706 INFO  Proposer:24 - Reqeust Received: CreateUser: a
+2022-05-02 16:46:42:707 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 16:46:42:707 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 16:46:42:707 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 16:46:42:708 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 16:46:42:708 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 16:46:42:708 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 16:46:42:708 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 16:46:42:708 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 16:46:42:708 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 16:46:42:709 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 16:46:42:709 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 16:46:42:709 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 16:46:42:709 INFO  Proposer:60 - Proposal: CreateUser: a SUCCESS PREPARED and ACCEPTED
+2022-05-02 16:46:42:718 INFO  Server:218 - Server 19001CREATE_USER: SUCCESS
+2022-05-02 16:46:42:718 INFO  Server:219 - Create user succeed
+2022-05-02 16:46:42:719 INFO  Client:294 - User a registered successfully!
+2022-05-02 16:46:47:956 INFO  Proposer:24 - Reqeust Received: logina
+2022-05-02 16:46:47:956 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 16:46:47:957 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 16:46:47:957 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 16:46:47:957 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 16:46:47:957 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 16:46:47:957 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 16:46:47:957 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 16:46:47:957 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 16:46:47:957 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 16:46:47:957 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 16:46:47:958 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 16:46:47:958 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 16:46:47:958 INFO  Proposer:60 - Proposal: logina SUCCESS PREPARED and ACCEPTED
+2022-05-02 16:46:47:967 INFO  Server:265 - Server 19001LOGIN: SUCCESS
+2022-05-02 16:46:47:968 INFO  Server:266 - New user logged in: a
+2022-05-02 16:46:47:970 INFO  Client:325 - Logged in successfully as a
+2022-05-02 16:54:16:888 ERROR Client:381 - 
+2022-05-02 16:54:16:890 ERROR Client:259 - Internal error. Please try again.
+2022-05-02 16:54:16:892 ERROR Client:93 - java.util.NoSuchElementException: No line found
+2022-05-02 16:54:16:968 INFO  Client:60 - marc is shutting down...
+2022-05-02 16:54:29:987 DEBUG CentralServer:130 - Server port: 19001is assigned to client.
+2022-05-02 16:54:29:990 INFO  Client:275 - Connected to server: 19001
+2022-05-02 16:54:44:062 INFO  Proposer:24 - Reqeust Received: CreateUser: b
+2022-05-02 16:54:44:062 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 16:54:44:063 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 16:54:44:063 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 16:54:44:063 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 16:54:44:063 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 16:54:44:063 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 16:54:44:063 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 16:54:44:064 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 16:54:44:064 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 16:54:44:064 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 16:54:44:064 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 16:54:44:065 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 16:54:44:065 INFO  Proposer:60 - Proposal: CreateUser: b SUCCESS PREPARED and ACCEPTED
+2022-05-02 16:54:44:075 INFO  Server:218 - Server 19001CREATE_USER: SUCCESS
+2022-05-02 16:54:44:075 INFO  Server:219 - Create user succeed
+2022-05-02 16:54:44:078 INFO  Client:294 - User b registered successfully!
+2022-05-02 16:54:48:514 INFO  Proposer:24 - Reqeust Received: loginb
+2022-05-02 16:54:48:514 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 16:54:48:514 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 16:54:48:514 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 16:54:48:514 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 16:54:48:514 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 16:54:48:515 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 16:54:48:515 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 16:54:48:515 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 16:54:48:515 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 16:54:48:515 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 16:54:48:515 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 16:54:48:515 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 16:54:48:515 INFO  Proposer:60 - Proposal: loginb SUCCESS PREPARED and ACCEPTED
+2022-05-02 16:54:48:524 INFO  Server:265 - Server 19001LOGIN: SUCCESS
+2022-05-02 16:54:48:525 INFO  Server:266 - New user logged in: b
+2022-05-02 16:54:48:529 INFO  Client:325 - Logged in successfully as b
+2022-05-02 18:17:11:233 ERROR Client:381 - 
+2022-05-02 18:17:11:235 ERROR Client:259 - Internal error. Please try again.
+2022-05-02 18:17:11:264 INFO  Client:60 - marc is shutting down...
+2022-05-02 18:17:43:549 INFO  Server:94 - Server 19005 is shutting down...
+2022-05-02 18:17:43:549 INFO  Server:94 - Server 19001 is shutting down...
+2022-05-02 18:17:43:549 INFO  Server:94 - Server 19004 is shutting down...
+2022-05-02 18:17:43:549 INFO  Server:94 - Server 19002 is shutting down...
+2022-05-02 18:17:43:549 INFO  Server:94 - Server 19003 is shutting down...
+2022-05-02 18:18:07:644 DEBUG CentralServer:114 - Central Server Coordinator 19000 is running...
+2022-05-02 18:18:07:661 DEBUG CentralServer:53 - Server  at port 19001 is running...
+2022-05-02 18:18:07:662 DEBUG CentralServer:53 - Server  at port 19002 is running...
+2022-05-02 18:18:07:663 DEBUG CentralServer:53 - Server  at port 19003 is running...
+2022-05-02 18:18:07:664 DEBUG CentralServer:53 - Server  at port 19004 is running...
+2022-05-02 18:18:07:666 DEBUG CentralServer:53 - Server  at port 19005 is running...
+2022-05-02 18:18:23:646 DEBUG CentralServer:130 - Server port: 19001is assigned to client.
+2022-05-02 18:18:23:649 INFO  Client:275 - Connected to server: 19001
+2022-05-02 18:18:31:507 INFO  Proposer:24 - Reqeust Received: CreateUser: a
+2022-05-02 18:18:31:508 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 18:18:31:508 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 18:18:31:509 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 18:18:31:509 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 18:18:31:509 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 18:18:31:510 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 18:18:31:510 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 18:18:31:510 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 18:18:31:511 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 18:18:31:512 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 18:18:31:512 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 18:18:31:512 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 18:18:31:513 INFO  Proposer:60 - Proposal: CreateUser: a SUCCESS PREPARED and ACCEPTED
+2022-05-02 18:18:31:556 INFO  Server:218 - Server 19001CREATE_USER: SUCCESS
+2022-05-02 18:18:31:556 INFO  Server:219 - Create user succeed
+2022-05-02 18:18:31:560 INFO  Client:294 - User a registered successfully!
+2022-05-02 18:18:38:377 INFO  Proposer:24 - Reqeust Received: logina
+2022-05-02 18:18:38:378 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 18:18:38:378 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 18:18:38:378 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 18:18:38:378 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 18:18:38:378 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 18:18:38:379 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 18:18:38:379 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 18:18:38:379 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 18:18:38:379 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 18:18:38:379 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 18:18:38:380 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 18:18:38:380 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 18:18:38:380 INFO  Proposer:60 - Proposal: logina SUCCESS PREPARED and ACCEPTED
+2022-05-02 18:18:38:408 INFO  Server:265 - Server 19001LOGIN: SUCCESS
+2022-05-02 18:18:38:409 INFO  Server:266 - New user logged in: a
+2022-05-02 18:18:38:411 INFO  Client:325 - Logged in successfully as a
+2022-05-02 18:18:47:057 INFO  Proposer:24 - Reqeust Received: Create_document: a
+2022-05-02 18:18:47:057 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 18:18:47:057 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 18:18:47:058 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 18:18:47:058 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 18:18:47:058 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 18:18:47:059 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 18:18:47:059 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 18:18:47:059 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 18:18:47:059 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 18:18:47:060 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 18:18:47:060 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 18:18:47:060 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 18:18:47:060 INFO  Proposer:60 - Proposal: Create_document: a SUCCESS PREPARED and ACCEPTED
+2022-05-02 18:18:47:077 INFO  Server:482 - Server 19001CREATE_DOCUMENT: SUCCESS
+2022-05-02 18:18:47:078 INFO  Server:483 - File successfully created: andy
+2022-05-02 18:18:47:078 INFO  Client:378 - Successfully create a new document.
+2022-05-02 18:21:17:693 INFO  Proposer:24 - Reqeust Received: Create_document: a
+2022-05-02 18:21:17:694 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 18:21:17:694 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 18:21:17:694 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 18:21:17:695 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 18:21:17:695 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 18:21:17:695 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 18:21:17:695 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 18:21:17:695 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 18:21:17:695 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 18:21:17:695 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 18:21:17:696 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 18:21:17:696 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 18:21:17:696 INFO  Proposer:60 - Proposal: Create_document: a SUCCESS PREPARED and ACCEPTED
+2022-05-02 18:21:17:925 INFO  Server:482 - Server 19001CREATE_DOCUMENT: SUCCESS
+2022-05-02 18:21:17:925 INFO  Server:483 - File successfully created: lily
+2022-05-02 18:21:17:926 INFO  Client:378 - Successfully create a new document.
+2022-05-02 18:22:42:715 INFO  Client:60 - marc is shutting down...
+2022-05-02 18:23:12:415 INFO  Server:94 - Server 19003 is shutting down...
+2022-05-02 18:23:12:415 INFO  Server:94 - Server 19001 is shutting down...
+2022-05-02 18:23:12:415 INFO  Server:94 - Server 19005 is shutting down...
+2022-05-02 18:23:12:415 INFO  Server:94 - Server 19002 is shutting down...
+2022-05-02 18:23:12:415 INFO  Server:94 - Server 19004 is shutting down...
+2022-05-02 18:23:30:031 DEBUG CentralServer:114 - Central Server Coordinator 19000 is running...
+2022-05-02 18:23:30:051 DEBUG CentralServer:53 - Server  at port 19001 is running...
+2022-05-02 18:23:30:052 DEBUG CentralServer:53 - Server  at port 19002 is running...
+2022-05-02 18:23:30:053 DEBUG CentralServer:53 - Server  at port 19003 is running...
+2022-05-02 18:23:30:054 DEBUG CentralServer:53 - Server  at port 19004 is running...
+2022-05-02 18:23:30:055 DEBUG CentralServer:53 - Server  at port 19005 is running...
+2022-05-02 18:23:42:947 DEBUG CentralServer:130 - Server port: 19001is assigned to client.
+2022-05-02 18:23:42:950 INFO  Client:275 - Connected to server: 19001
+2022-05-02 18:23:52:508 INFO  Proposer:24 - Reqeust Received: CreateUser: a
+2022-05-02 18:23:52:509 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 18:23:52:509 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 18:23:52:510 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 18:23:52:510 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 18:23:52:510 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 18:23:52:510 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 18:23:52:511 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 18:23:52:511 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 18:23:52:512 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 18:23:52:512 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 18:23:52:512 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 18:23:52:513 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 18:23:52:513 INFO  Proposer:60 - Proposal: CreateUser: a SUCCESS PREPARED and ACCEPTED
+2022-05-02 18:23:52:558 INFO  Server:218 - Server 19001CREATE_USER: SUCCESS
+2022-05-02 18:23:52:558 INFO  Server:219 - Create user succeed
+2022-05-02 18:23:52:562 INFO  Client:294 - User a registered successfully!
+2022-05-02 18:24:39:660 INFO  Proposer:24 - Reqeust Received: logina
+2022-05-02 18:24:39:661 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 18:24:39:661 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 18:24:39:661 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 18:24:39:661 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 18:24:39:662 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 18:24:39:662 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 18:24:39:662 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 18:24:39:662 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 18:24:39:662 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 18:24:39:662 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 18:24:39:662 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 18:24:39:663 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 18:24:39:663 INFO  Proposer:60 - Proposal: logina SUCCESS PREPARED and ACCEPTED
+2022-05-02 18:24:39:695 INFO  Server:265 - Server 19001LOGIN: SUCCESS
+2022-05-02 18:24:39:696 INFO  Server:266 - New user logged in: a
+2022-05-02 18:24:39:698 INFO  Client:325 - Logged in successfully as a
+2022-05-02 18:24:45:814 INFO  Proposer:24 - Reqeust Received: Create_document: a
+2022-05-02 18:24:45:815 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 18:24:45:816 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 18:24:45:816 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 18:24:45:816 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 18:24:45:817 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 18:24:45:817 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 18:24:45:817 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 18:24:45:818 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 18:24:45:818 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 18:24:45:818 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 18:24:45:818 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 18:24:45:818 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 18:24:45:818 INFO  Proposer:60 - Proposal: Create_document: a SUCCESS PREPARED and ACCEPTED
+2022-05-02 18:24:45:832 INFO  Server:482 - Server 19001CREATE_DOCUMENT: SUCCESS
+2022-05-02 18:24:45:832 INFO  Server:483 - File successfully created: andy
+2022-05-02 18:24:45:833 INFO  Client:378 - Successfully create a new document.
+2022-05-02 18:25:10:646 INFO  Client:135 - Client Command Summary:
+  help: to show this help message
+
+  register DOCTOR PWD: to register a new account with doctorName DOCTOR and password PWD
+  login DOCTOR PWD: to login using doctorName DOCTOR and PWD credentials
+  create PATIENT_FILE SECTION: to create a new file PATIENT_FILE and contains SECTION sections
+  edit PATIENT_FILE SECTION: to edit the section of patient file
+  stopedit: to stop the current editing session if exists
+  showsec PATIENT_FILE SECTION: to download the content of the SECTION section of patient file
+  showdoc DOC: to download the entire patient file with all sections 
+  logout: to logout
+  list: to list all the accessible and editable patient files
+  share DOCTOR PATIENT_FILE: to share a patient file with another doctor
+  news: to get all the news
+  unread: to retrieve all the unread chat messages
+  send TEXT: to send the TEXT message regarding the document being edited
+  
+2022-05-02 18:25:20:307 ERROR Client:406 - Document does not exist.
+2022-05-02 18:28:50:849 INFO  Server:94 - Server 19004 is shutting down...
+2022-05-02 18:28:50:849 INFO  Server:94 - Server 19001 is shutting down...
+2022-05-02 18:28:50:849 INFO  Server:94 - Server 19005 is shutting down...
+2022-05-02 18:28:50:849 INFO  Server:94 - Server 19003 is shutting down...
+2022-05-02 18:28:50:849 INFO  Server:94 - Server 19002 is shutting down...
+2022-05-02 18:28:55:739 INFO  Client:60 - marc is shutting down...
+2022-05-02 18:29:51:930 DEBUG CentralServer:114 - Central Server Coordinator 19000 is running...
+2022-05-02 18:29:51:949 DEBUG CentralServer:53 - Server  at port 19001 is running...
+2022-05-02 18:29:51:950 DEBUG CentralServer:53 - Server  at port 19002 is running...
+2022-05-02 18:29:51:951 DEBUG CentralServer:53 - Server  at port 19003 is running...
+2022-05-02 18:29:51:952 DEBUG CentralServer:53 - Server  at port 19004 is running...
+2022-05-02 18:29:51:953 DEBUG CentralServer:53 - Server  at port 19005 is running...
+2022-05-02 18:30:08:765 DEBUG CentralServer:130 - Server port: 19001is assigned to client.
+2022-05-02 18:30:08:768 INFO  Client:275 - Connected to server: 19001
+2022-05-02 18:30:13:994 INFO  Proposer:24 - Reqeust Received: CreateUser: a
+2022-05-02 18:30:13:996 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 18:30:13:996 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 18:30:13:997 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 18:30:13:997 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 18:30:13:997 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 18:30:13:997 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 18:30:13:998 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 18:30:13:998 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 18:30:13:999 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 18:30:13:999 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 18:30:13:999 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 18:30:14:000 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 18:30:14:000 INFO  Proposer:60 - Proposal: CreateUser: a SUCCESS PREPARED and ACCEPTED
+2022-05-02 18:30:14:045 INFO  Server:218 - Server 19001CREATE_USER: SUCCESS
+2022-05-02 18:30:14:046 INFO  Server:219 - Create user succeed
+2022-05-02 18:30:14:052 INFO  Client:294 - User a registered successfully!
+2022-05-02 18:30:28:730 INFO  Proposer:24 - Reqeust Received: logina
+2022-05-02 18:30:28:730 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 18:30:28:730 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 18:30:28:730 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 18:30:28:730 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 18:30:28:731 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 18:30:28:731 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 18:30:28:731 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 18:30:28:731 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 18:30:28:731 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 18:30:28:731 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 18:30:28:732 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 18:30:28:732 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 18:30:28:732 INFO  Proposer:60 - Proposal: logina SUCCESS PREPARED and ACCEPTED
+2022-05-02 18:30:28:762 INFO  Server:265 - Server 19001LOGIN: SUCCESS
+2022-05-02 18:30:28:762 INFO  Server:266 - New user logged in: a
+2022-05-02 18:30:28:765 INFO  Client:325 - Logged in successfully as a
+2022-05-02 18:30:42:263 INFO  Proposer:24 - Reqeust Received: Create_document: a
+2022-05-02 18:30:42:263 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 18:30:42:263 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 18:30:42:264 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 18:30:42:264 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 18:30:42:264 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 18:30:42:265 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 18:30:42:265 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 18:30:42:265 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 18:30:42:266 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 18:30:42:266 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 18:30:42:266 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 18:30:42:267 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 18:30:42:267 INFO  Proposer:60 - Proposal: Create_document: a SUCCESS PREPARED and ACCEPTED
+2022-05-02 18:30:42:296 INFO  Server:482 - Server 19001CREATE_DOCUMENT: SUCCESS
+2022-05-02 18:30:42:296 INFO  Server:483 - File successfully created: lily
+2022-05-02 18:30:42:297 INFO  Client:378 - Successfully create a new document.
+2022-05-02 18:31:00:240 ERROR Client:406 - Section does not exist.
+2022-05-02 18:31:10:820 INFO  Proposer:24 - Reqeust Received: Edit: 
+2022-05-02 18:31:10:820 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 18:31:10:820 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 18:31:10:820 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 18:31:10:820 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 18:31:10:821 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 18:31:10:821 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 18:31:10:821 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 18:31:10:821 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 18:31:10:821 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 18:31:10:821 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 18:31:10:821 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 18:31:10:821 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 18:31:10:822 INFO  Proposer:60 - Proposal: Edit:  SUCCESS PREPARED and ACCEPTED
+2022-05-02 18:31:10:857 INFO  Server:369 - Server 19001EDIT: SUCCESS
+2022-05-02 18:31:10:860 INFO  RemoteStreamExporter:77 - Using stream exporter com.healthmarketscience.rmiio.exporter.DefaultRemoteStreamExporter
+2022-05-02 18:31:10:861 DEBUG RemoteStreamExporter:121 - Exporting remote object com.healthmarketscience.rmiio.SimpleRemoteInputStream@118b3618
+2022-05-02 18:34:43:965 INFO  Client:135 - Client Command Summary:
+  help: to show this help message
+
+  register DOCTOR PWD: to register a new account with doctorName DOCTOR and password PWD
+  login DOCTOR PWD: to login using doctorName DOCTOR and PWD credentials
+  create PATIENT_FILE SECTION: to create a new file PATIENT_FILE and contains SECTION sections
+  edit PATIENT_FILE SECTION: to edit the section of patient file
+  stopedit: to stop the current editing session if exists
+  showsec PATIENT_FILE SECTION: to download the content of the SECTION section of patient file
+  showdoc DOC: to download the entire patient file with all sections 
+  logout: to logout
+  list: to list all the accessible and editable patient files
+  share DOCTOR PATIENT_FILE: to share a patient file with another doctor
+  news: to get all the news
+  unread: to retrieve all the unread chat messages
+  send TEXT: to send the TEXT message regarding the document being edited
+  
+2022-05-02 18:35:09:683 INFO  Client:60 - marc is shutting down...
+2022-05-02 18:35:27:874 DEBUG CentralServer:130 - Server port: 19001is assigned to client.
+2022-05-02 18:35:27:876 INFO  Client:275 - Connected to server: 19001
+2022-05-02 18:35:37:680 ERROR Client:423 - You haven't logged in
+2022-05-02 18:35:44:325 ERROR Client:317 - Already logged in.
+2022-05-02 18:35:54:486 ERROR Client:352 - You're not logged in
+2022-05-02 18:36:05:392 INFO  Proposer:24 - Reqeust Received: CreateUser: b
+2022-05-02 18:36:05:393 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 18:36:05:393 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 18:36:05:393 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 18:36:05:393 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 18:36:05:393 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 18:36:05:393 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 18:36:05:394 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 18:36:05:394 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 18:36:05:394 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 18:36:05:394 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 18:36:05:394 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 18:36:05:394 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 18:36:05:394 INFO  Proposer:60 - Proposal: CreateUser: b SUCCESS PREPARED and ACCEPTED
+2022-05-02 18:36:05:404 INFO  Server:218 - Server 19001CREATE_USER: SUCCESS
+2022-05-02 18:36:05:404 INFO  Server:219 - Create user succeed
+2022-05-02 18:36:05:405 INFO  Client:294 - User b registered successfully!
+2022-05-02 18:36:47:321 INFO  Proposer:24 - Reqeust Received: loginb
+2022-05-02 18:36:47:321 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 18:36:47:321 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 18:36:47:322 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 18:36:47:322 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 18:36:47:322 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 18:36:47:322 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 18:36:47:322 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 18:36:47:322 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 18:36:47:323 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 18:36:47:323 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 18:36:47:323 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 18:36:47:323 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 18:36:47:324 INFO  Proposer:60 - Proposal: loginb SUCCESS PREPARED and ACCEPTED
+2022-05-02 18:36:47:334 INFO  Server:265 - Server 19001LOGIN: SUCCESS
+2022-05-02 18:36:47:335 INFO  Server:266 - New user logged in: b
+2022-05-02 18:36:47:338 INFO  Client:325 - Logged in successfully as b
+2022-05-02 18:37:32:371 INFO  Client:135 - Client Command Summary:
+  help: to show this help message
+
+  register DOCTOR PWD: to register a new account with doctorName DOCTOR and password PWD
+  login DOCTOR PWD: to login using doctorName DOCTOR and PWD credentials
+  create PATIENT_FILE SECTION: to create a new file PATIENT_FILE and contains SECTION sections
+  edit PATIENT_FILE SECTION: to edit the section of patient file
+  stopedit: to stop the current editing session if exists
+  showsec PATIENT_FILE SECTION: to download the content of the SECTION section of patient file
+  showdoc DOC: to download the entire patient file with all sections 
+  logout: to logout
+  list: to list all the accessible and editable patient files
+  share DOCTOR PATIENT_FILE: to share a patient file with another doctor
+  news: to get all the news
+  unread: to retrieve all the unread chat messages
+  send TEXT: to send the TEXT message regarding the document being edited
+  
+2022-05-02 18:40:56:541 DEBUG CentralServer:130 - Server port: 19001is assigned to client.
+2022-05-02 18:40:56:543 INFO  Client:275 - Connected to server: 19001
+2022-05-02 18:41:03:408 INFO  Proposer:24 - Reqeust Received: CreateUser: c
+2022-05-02 18:41:03:408 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 18:41:03:409 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 18:41:03:409 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 18:41:03:409 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 18:41:03:409 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 18:41:03:409 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 18:41:03:409 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 18:41:03:409 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 18:41:03:410 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 18:41:03:410 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 18:41:03:410 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 18:41:03:410 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 18:41:03:410 INFO  Proposer:60 - Proposal: CreateUser: c SUCCESS PREPARED and ACCEPTED
+2022-05-02 18:41:03:418 INFO  Server:218 - Server 19001CREATE_USER: SUCCESS
+2022-05-02 18:41:03:419 INFO  Server:219 - Create user succeed
+2022-05-02 18:41:03:421 INFO  Client:294 - User c registered successfully!
+2022-05-02 18:41:07:498 INFO  Proposer:24 - Reqeust Received: loginc
+2022-05-02 18:41:07:498 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 18:41:07:498 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 18:41:07:498 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 18:41:07:499 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 18:41:07:499 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 18:41:07:499 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 18:41:07:499 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 18:41:07:499 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 18:41:07:499 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 18:41:07:499 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 18:41:07:499 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 18:41:07:500 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 18:41:07:500 INFO  Proposer:60 - Proposal: loginc SUCCESS PREPARED and ACCEPTED
+2022-05-02 18:41:07:509 INFO  Server:265 - Server 19001LOGIN: SUCCESS
+2022-05-02 18:41:07:509 INFO  Server:266 - New user logged in: c
+2022-05-02 18:41:07:511 INFO  Client:325 - Logged in successfully as c
+2022-05-02 18:42:43:424 ERROR Client:558 - You do not have access.
+2022-05-02 18:43:19:193 INFO  Proposer:24 - Reqeust Received: Create_document: b
+2022-05-02 18:43:19:194 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 18:43:19:195 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 18:43:19:195 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 18:43:19:195 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 18:43:19:195 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 18:43:19:196 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 18:43:19:196 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 18:43:19:196 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 18:43:19:196 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 18:43:19:196 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 18:43:19:197 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 18:43:19:197 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 18:43:19:197 INFO  Proposer:60 - Proposal: Create_document: b SUCCESS PREPARED and ACCEPTED
+2022-05-02 18:43:19:414 INFO  Server:482 - Server 19001CREATE_DOCUMENT: SUCCESS
+2022-05-02 18:43:19:414 INFO  Server:483 - File successfully created: john
+2022-05-02 18:43:19:414 INFO  Client:378 - Successfully create a new document.
+2022-05-02 18:43:29:402 INFO  Proposer:24 - Reqeust Received: ShareDoc: b
+2022-05-02 18:43:29:402 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 18:43:29:403 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 18:43:29:403 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 18:43:29:403 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 18:43:29:404 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 18:43:29:404 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 18:43:29:404 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 18:43:29:404 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 18:43:29:404 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 18:43:29:404 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 18:43:29:405 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 18:43:29:405 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 18:43:29:405 INFO  Proposer:60 - Proposal: ShareDoc: b SUCCESS PREPARED and ACCEPTED
+2022-05-02 18:43:29:412 INFO  Server:658 - Server 19001SHARE: SUCCESS
+2022-05-02 18:43:29:413 INFO  Client:556 - Document shared successfully
+2022-05-02 18:43:30:110 INFO  Proposer:24 - Reqeust Received: [john]
+2022-05-02 18:43:30:110 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 18:43:30:111 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 18:43:30:111 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 18:43:30:111 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 18:43:30:111 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 18:43:30:112 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 18:43:30:112 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 18:43:30:112 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 18:43:30:112 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 18:43:30:112 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 18:43:30:113 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 18:43:30:113 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 18:43:30:113 INFO  Proposer:60 - Proposal: [john] SUCCESS PREPARED and ACCEPTED
+2022-05-02 18:43:31:119 INFO  Proposer:24 - Reqeust Received: [john]
+2022-05-02 18:43:31:119 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 18:43:31:119 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 18:43:31:120 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 18:43:31:120 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 18:43:31:120 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 18:43:31:120 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 18:43:31:120 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 18:43:31:120 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 18:43:31:120 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 18:43:31:120 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 18:43:31:120 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 18:43:31:121 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 18:43:31:121 INFO  Proposer:60 - Proposal: [john] SUCCESS PREPARED and ACCEPTED
+2022-05-02 18:43:32:126 INFO  Proposer:24 - Reqeust Received: [john]
+2022-05-02 18:43:32:126 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 18:43:32:126 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 18:43:32:126 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 18:43:32:126 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 18:43:32:127 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 18:43:32:127 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 18:43:32:127 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 18:43:32:127 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 18:43:32:127 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 18:43:32:127 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 18:43:32:127 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 18:43:32:127 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 18:43:32:127 INFO  Proposer:60 - Proposal: [john] SUCCESS PREPARED and ACCEPTED
+2022-05-02 18:43:33:128 INFO  Proposer:24 - Reqeust Received: [john]
+2022-05-02 18:43:33:128 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 18:43:33:129 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 18:43:33:129 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 18:43:33:129 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 18:43:33:129 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 18:43:33:129 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 18:43:33:129 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 18:43:33:130 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 18:43:33:130 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 18:43:33:130 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 18:43:33:130 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 18:43:33:130 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 18:43:33:131 INFO  Proposer:60 - Proposal: [john] SUCCESS PREPARED and ACCEPTED
+2022-05-02 18:43:34:132 INFO  Proposer:24 - Reqeust Received: [john]
+2022-05-02 18:43:34:132 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 18:43:34:132 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 18:43:34:132 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 18:43:34:132 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 18:43:34:132 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 18:43:34:132 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 18:43:34:132 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 18:43:34:133 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 18:43:34:133 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 18:43:34:133 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 18:43:34:133 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 18:43:34:133 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 18:43:34:133 INFO  Proposer:60 - Proposal: [john] SUCCESS PREPARED and ACCEPTED
+2022-05-02 18:43:35:139 INFO  Proposer:24 - Reqeust Received: [john]
+2022-05-02 18:43:35:139 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 18:43:35:139 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 18:43:35:139 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 18:43:35:139 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 18:43:35:140 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 18:43:35:140 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 18:43:35:140 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 18:43:35:140 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 18:43:35:140 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 18:43:35:140 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 18:43:35:140 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 18:43:35:140 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 18:43:35:140 INFO  Proposer:60 - Proposal: [john] SUCCESS PREPARED and ACCEPTED
+2022-05-02 18:43:36:146 INFO  Proposer:24 - Reqeust Received: [john]
+2022-05-02 18:43:36:146 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 18:43:36:146 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 18:43:36:146 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 18:43:36:146 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 18:43:36:146 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 18:43:36:146 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 18:43:36:147 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 18:43:36:147 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 18:43:36:147 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 18:43:36:147 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 18:43:36:147 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 18:43:36:147 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 18:43:36:147 INFO  Proposer:60 - Proposal: [john] SUCCESS PREPARED and ACCEPTED
+2022-05-02 18:43:37:151 INFO  Proposer:24 - Reqeust Received: [john]
+2022-05-02 18:43:37:152 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 18:43:37:152 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 18:43:37:152 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 18:43:37:152 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 18:43:37:152 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 18:43:37:152 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 18:43:37:152 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 18:43:37:152 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 18:43:37:152 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 18:43:37:152 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 18:43:37:152 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 18:43:37:153 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 18:43:37:153 INFO  Proposer:60 - Proposal: [john] SUCCESS PREPARED and ACCEPTED
+2022-05-02 18:43:38:157 INFO  Proposer:24 - Reqeust Received: [john]
+2022-05-02 18:43:38:157 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 18:43:38:158 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 18:43:38:158 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 18:43:38:158 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 18:43:38:158 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 18:43:38:158 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 18:43:38:158 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 18:43:38:158 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 18:43:38:158 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 18:43:38:158 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 18:43:38:158 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 18:43:38:159 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 18:43:38:159 INFO  Proposer:60 - Proposal: [john] SUCCESS PREPARED and ACCEPTED
+2022-05-02 18:43:39:162 INFO  Proposer:24 - Reqeust Received: [john]
+2022-05-02 18:43:39:162 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 18:43:39:162 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 18:43:39:162 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 18:43:39:162 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 18:43:39:162 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 18:43:39:162 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 18:43:39:162 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 18:43:39:162 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 18:43:39:162 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 18:43:39:163 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 18:43:39:163 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 18:43:39:163 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 18:43:39:163 INFO  Proposer:60 - Proposal: [john] SUCCESS PREPARED and ACCEPTED
+2022-05-02 18:43:40:167 INFO  Proposer:24 - Reqeust Received: [john]
+2022-05-02 18:43:40:167 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 18:43:40:167 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 18:43:40:168 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 18:43:40:168 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 18:43:40:168 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 18:43:40:168 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 18:43:40:168 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 18:43:40:168 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 18:43:40:168 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 18:43:40:168 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 18:43:40:168 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 18:43:40:168 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 18:43:40:168 INFO  Proposer:60 - Proposal: [john] SUCCESS PREPARED and ACCEPTED
+2022-05-02 18:43:41:172 INFO  Proposer:24 - Reqeust Received: [john]
+2022-05-02 18:43:41:172 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 18:43:41:172 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 18:43:41:172 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 18:43:41:173 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 18:43:41:173 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 18:43:41:173 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 18:43:41:173 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 18:43:41:173 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 18:43:41:173 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 18:43:41:173 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 18:43:41:173 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 18:43:41:173 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 18:43:41:174 INFO  Proposer:60 - Proposal: [john] SUCCESS PREPARED and ACCEPTED
+2022-05-02 18:43:42:179 INFO  Proposer:24 - Reqeust Received: [john]
+2022-05-02 18:43:42:180 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 18:43:42:180 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 18:43:42:180 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 18:43:42:180 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 18:43:42:180 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 18:43:42:180 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 18:43:42:180 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 18:43:42:180 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 18:43:42:180 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 18:43:42:180 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 18:43:42:181 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 18:43:42:181 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 18:43:42:181 INFO  Proposer:60 - Proposal: [john] SUCCESS PREPARED and ACCEPTED
+2022-05-02 18:43:43:186 INFO  Proposer:24 - Reqeust Received: [john]
+2022-05-02 18:43:43:186 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 18:43:43:187 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 18:43:43:187 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 18:43:43:187 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 18:43:43:187 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 18:43:43:187 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 18:43:43:187 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 18:43:43:187 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 18:43:43:188 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 18:43:43:188 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 18:43:43:188 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 18:43:43:188 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 18:43:43:188 INFO  Proposer:60 - Proposal: [john] SUCCESS PREPARED and ACCEPTED
+2022-05-02 18:43:44:194 INFO  Proposer:24 - Reqeust Received: [john]
+2022-05-02 18:43:44:194 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 18:43:44:194 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 18:43:44:194 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 18:43:44:194 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 18:43:44:194 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 18:43:44:194 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 18:43:44:194 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 18:43:44:195 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 18:43:44:195 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 18:43:44:195 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 18:43:44:195 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 18:43:44:195 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 18:43:44:195 INFO  Proposer:60 - Proposal: [john] SUCCESS PREPARED and ACCEPTED
+2022-05-02 18:43:45:200 INFO  Proposer:24 - Reqeust Received: [john]
+2022-05-02 18:43:45:200 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 18:43:45:200 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 18:43:45:200 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 18:43:45:200 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 18:43:45:200 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 18:43:45:200 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 18:43:45:201 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 18:43:45:201 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 18:43:45:201 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 18:43:45:201 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 18:43:45:201 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 18:43:45:201 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 18:43:45:201 INFO  Proposer:60 - Proposal: [john] SUCCESS PREPARED and ACCEPTED
+2022-05-02 18:43:46:206 INFO  Proposer:24 - Reqeust Received: [john]
+2022-05-02 18:43:46:206 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 18:43:46:206 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 18:43:46:207 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 18:43:46:207 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 18:43:46:207 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 18:43:46:207 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 18:43:46:208 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 18:43:46:208 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 18:43:46:208 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 18:43:46:208 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 18:43:46:208 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 18:43:46:208 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 18:43:46:209 INFO  Proposer:60 - Proposal: [john] SUCCESS PREPARED and ACCEPTED
+2022-05-02 18:43:47:212 INFO  Proposer:24 - Reqeust Received: [john]
+2022-05-02 18:43:47:212 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 18:43:47:212 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 18:43:47:212 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 18:43:47:213 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 18:43:47:213 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 18:43:47:213 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 18:43:47:213 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 18:43:47:213 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 18:43:47:213 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 18:43:47:213 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 18:43:47:213 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 18:43:47:214 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 18:43:47:214 INFO  Proposer:60 - Proposal: [john] SUCCESS PREPARED and ACCEPTED
+2022-05-02 18:43:48:220 INFO  Proposer:24 - Reqeust Received: [john]
+2022-05-02 18:43:48:220 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 18:43:48:221 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 18:43:48:221 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 18:43:48:221 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 18:43:48:221 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 18:43:48:221 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 18:43:48:221 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 18:43:48:222 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 18:43:48:222 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 18:43:48:222 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 18:43:48:222 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 18:43:48:222 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 18:43:48:222 INFO  Proposer:60 - Proposal: [john] SUCCESS PREPARED and ACCEPTED
+2022-05-02 18:43:49:226 INFO  Proposer:24 - Reqeust Received: [john]
+2022-05-02 18:43:49:227 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 18:43:49:227 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 18:43:49:227 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 18:43:49:227 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 18:43:49:227 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 18:43:49:228 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 18:43:49:228 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 18:43:49:228 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 18:43:49:228 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 18:43:49:228 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 18:43:49:228 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 18:43:49:228 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 18:43:49:228 INFO  Proposer:60 - Proposal: [john] SUCCESS PREPARED and ACCEPTED
+2022-05-02 18:43:50:230 INFO  Proposer:24 - Reqeust Received: [john]
+2022-05-02 18:43:50:231 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 18:43:50:231 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 18:43:50:231 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 18:43:50:231 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 18:43:50:231 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 18:43:50:231 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 18:43:50:232 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 18:43:50:232 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 18:43:50:232 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 18:43:50:232 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 18:43:50:232 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 18:43:50:232 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 18:43:50:232 INFO  Proposer:60 - Proposal: [john] SUCCESS PREPARED and ACCEPTED
+2022-05-02 18:43:51:235 INFO  Proposer:24 - Reqeust Received: [john]
+2022-05-02 18:43:51:236 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 18:43:51:236 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 18:43:51:236 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 18:43:51:236 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 18:43:51:236 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 18:43:51:236 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 18:43:51:237 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 18:43:51:237 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 18:43:51:237 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 18:43:51:237 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 18:43:51:237 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 18:43:51:238 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 18:43:51:238 INFO  Proposer:60 - Proposal: [john] SUCCESS PREPARED and ACCEPTED
+2022-05-02 18:43:52:244 INFO  Proposer:24 - Reqeust Received: [john]
+2022-05-02 18:43:52:244 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 18:43:52:244 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 18:43:52:244 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 18:43:52:244 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 18:43:52:244 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 18:43:52:244 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 18:43:52:244 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 18:43:52:244 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 18:43:52:245 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 18:43:52:245 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 18:43:52:245 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 18:43:52:245 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 18:43:52:245 INFO  Proposer:60 - Proposal: [john] SUCCESS PREPARED and ACCEPTED
+2022-05-02 18:43:53:246 INFO  Proposer:24 - Reqeust Received: [john]
+2022-05-02 18:43:53:247 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 18:43:53:247 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 18:43:53:247 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 18:43:53:247 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 18:43:53:247 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 18:43:53:247 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 18:43:53:247 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 18:43:53:248 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 18:43:53:248 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 18:43:53:248 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 18:43:53:248 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 18:43:53:248 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 18:43:53:248 INFO  Proposer:60 - Proposal: [john] SUCCESS PREPARED and ACCEPTED
+2022-05-02 18:43:54:254 INFO  Proposer:24 - Reqeust Received: [john]
+2022-05-02 18:43:54:255 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 18:43:54:255 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 18:43:54:255 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 18:43:54:255 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 18:43:54:255 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 18:43:54:255 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 18:43:54:255 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 18:43:54:256 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 18:43:54:256 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 18:43:54:256 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 18:43:54:256 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 18:43:54:256 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 18:43:54:256 INFO  Proposer:60 - Proposal: [john] SUCCESS PREPARED and ACCEPTED
+2022-05-02 18:43:55:261 INFO  Proposer:24 - Reqeust Received: [john]
+2022-05-02 18:43:55:261 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 18:43:55:262 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 18:43:55:262 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 18:43:55:262 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 18:43:55:262 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 18:43:55:262 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 18:43:55:262 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 18:43:55:262 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 18:43:55:262 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 18:43:55:262 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 18:43:55:262 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 18:43:55:262 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 18:43:55:262 INFO  Proposer:60 - Proposal: [john] SUCCESS PREPARED and ACCEPTED
+2022-05-02 18:43:56:027 INFO  Client:60 - marc is shutting down...
+2022-05-02 18:45:08:791 DEBUG RemoteStreamExporter:162 - Unexporting remote object com.healthmarketscience.rmiio.SimpleRemoteInputStream@118b3618
+2022-05-02 18:48:56:914 INFO  Client:60 - marc is shutting down...
+2022-05-02 18:49:07:743 DEBUG CentralServer:130 - Server port: 19001is assigned to client.
+2022-05-02 18:49:07:745 INFO  Client:275 - Connected to server: 19001
+2022-05-02 18:49:14:981 ERROR Client:296 - Username already exists
+2022-05-02 18:49:23:384 ERROR Client:317 - Already logged in.
+2022-05-02 18:49:40:069 ERROR Client:379 - You're not logged in
+2022-05-02 18:49:45:706 INFO  Proposer:24 - Reqeust Received: CreateUser: d
+2022-05-02 18:49:45:706 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 18:49:45:706 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 18:49:45:706 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 18:49:45:707 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 18:49:45:707 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 18:49:45:707 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 18:49:45:707 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 18:49:45:707 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 18:49:45:707 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 18:49:45:707 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 18:49:45:707 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 18:49:45:707 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 18:49:45:707 INFO  Proposer:60 - Proposal: CreateUser: d SUCCESS PREPARED and ACCEPTED
+2022-05-02 18:49:45:716 INFO  Server:218 - Server 19001CREATE_USER: SUCCESS
+2022-05-02 18:49:45:716 INFO  Server:219 - Create user succeed
+2022-05-02 18:49:45:717 INFO  Client:294 - User d registered successfully!
+2022-05-02 18:49:50:645 INFO  Proposer:24 - Reqeust Received: logind
+2022-05-02 18:49:50:645 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 18:49:50:646 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 18:49:50:646 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 18:49:50:646 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 18:49:50:646 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 18:49:50:646 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 18:49:50:646 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 18:49:50:646 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 18:49:50:646 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 18:49:50:646 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 18:49:50:646 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 18:49:50:646 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 18:49:50:646 INFO  Proposer:60 - Proposal: logind SUCCESS PREPARED and ACCEPTED
+2022-05-02 18:49:50:655 INFO  Server:265 - Server 19001LOGIN: SUCCESS
+2022-05-02 18:49:50:655 INFO  Server:266 - New user logged in: d
+2022-05-02 18:49:50:657 INFO  Client:325 - Logged in successfully as d
+2022-05-02 18:50:09:045 INFO  Proposer:24 - Reqeust Received: Create_document: d
+2022-05-02 18:50:09:046 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 18:50:09:046 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 18:50:09:046 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 18:50:09:046 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 18:50:09:046 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 18:50:09:046 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 18:50:09:046 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 18:50:09:047 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 18:50:09:047 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 18:50:09:047 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 18:50:09:047 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 18:50:09:047 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 18:50:09:047 INFO  Proposer:60 - Proposal: Create_document: d SUCCESS PREPARED and ACCEPTED
+2022-05-02 18:50:09:056 INFO  Server:482 - Server 19001CREATE_DOCUMENT: SUCCESS
+2022-05-02 18:50:09:057 INFO  Server:483 - File successfully created: danial
+2022-05-02 18:50:09:057 INFO  Client:378 - Successfully create a new document.
+2022-05-02 18:50:22:288 DEBUG CentralServer:130 - Server port: 19001is assigned to client.
+2022-05-02 18:50:22:290 INFO  Client:275 - Connected to server: 19001
+2022-05-02 18:50:27:303 INFO  Proposer:24 - Reqeust Received: CreateUser: e
+2022-05-02 18:50:27:304 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 18:50:27:304 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 18:50:27:304 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 18:50:27:304 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 18:50:27:304 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 18:50:27:304 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 18:50:27:304 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 18:50:27:304 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 18:50:27:305 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 18:50:27:305 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 18:50:27:305 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 18:50:27:305 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 18:50:27:305 INFO  Proposer:60 - Proposal: CreateUser: e SUCCESS PREPARED and ACCEPTED
+2022-05-02 18:50:27:311 INFO  Server:218 - Server 19001CREATE_USER: SUCCESS
+2022-05-02 18:50:27:312 INFO  Server:219 - Create user succeed
+2022-05-02 18:50:27:314 INFO  Client:294 - User e registered successfully!
+2022-05-02 18:50:53:950 INFO  Proposer:24 - Reqeust Received: logine
+2022-05-02 18:50:53:950 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 18:50:53:950 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 18:50:53:950 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 18:50:53:950 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 18:50:53:950 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 18:50:53:950 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 18:50:53:950 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 18:50:53:950 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 18:50:53:950 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 18:50:53:950 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 18:50:53:951 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 18:50:53:951 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 18:50:53:951 INFO  Proposer:60 - Proposal: logine SUCCESS PREPARED and ACCEPTED
+2022-05-02 18:50:53:962 INFO  Server:265 - Server 19001LOGIN: SUCCESS
+2022-05-02 18:50:53:962 INFO  Server:266 - New user logged in: e
+2022-05-02 18:50:53:964 INFO  Client:325 - Logged in successfully as e
+2022-05-02 18:51:05:217 INFO  Proposer:24 - Reqeust Received: ShareDoc: d
+2022-05-02 18:51:05:218 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 18:51:05:218 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 18:51:05:218 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 18:51:05:218 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 18:51:05:218 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 18:51:05:218 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 18:51:05:218 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 18:51:05:219 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 18:51:05:219 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 18:51:05:219 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 18:51:05:219 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 18:51:05:219 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 18:51:05:219 INFO  Proposer:60 - Proposal: ShareDoc: d SUCCESS PREPARED and ACCEPTED
+2022-05-02 18:51:05:227 INFO  Server:658 - Server 19001SHARE: SUCCESS
+2022-05-02 18:51:05:227 INFO  Client:556 - Document shared successfully
+2022-05-02 18:51:06:017 INFO  Proposer:24 - Reqeust Received: [danial]
+2022-05-02 18:51:06:018 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 18:51:06:018 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 18:51:06:018 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 18:51:06:018 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 18:51:06:018 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 18:51:06:018 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 18:51:06:018 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 18:51:06:018 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 18:51:06:018 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 18:51:06:018 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 18:51:06:018 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 18:51:06:018 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 18:51:06:019 INFO  Proposer:60 - Proposal: [danial] SUCCESS PREPARED and ACCEPTED
+2022-05-02 18:51:32:551 ERROR Client:669 - You're not editing any document
+2022-05-02 18:51:42:676 DEBUG Client:256 - Unsupported arguments. Please try again.
+2022-05-02 18:51:53:696 INFO  Proposer:24 - Reqeust Received: Edit: 
+2022-05-02 18:51:53:697 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 18:51:53:697 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 18:51:53:697 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 18:51:53:697 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 18:51:53:697 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 18:51:53:697 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 18:51:53:697 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 18:51:53:697 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 18:51:53:697 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 18:51:53:697 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 18:51:53:697 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 18:51:53:698 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 18:51:53:698 INFO  Proposer:60 - Proposal: Edit:  SUCCESS PREPARED and ACCEPTED
+2022-05-02 18:51:53:707 INFO  Server:369 - Server 19001EDIT: SUCCESS
+2022-05-02 18:51:53:707 DEBUG RemoteStreamExporter:121 - Exporting remote object com.healthmarketscience.rmiio.SimpleRemoteInputStream@173347c8
+2022-05-02 18:52:05:735 ERROR Client:406 - The section is being edited
+2022-05-02 18:54:16:137 INFO  Proposer:24 - Reqeust Received: Edit: 
+2022-05-02 18:54:16:137 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 18:54:16:137 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 18:54:16:137 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 18:54:16:138 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 18:54:16:138 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 18:54:16:138 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 18:54:16:138 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 18:54:16:138 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 18:54:16:138 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 18:54:16:138 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 18:54:16:138 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 18:54:16:138 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 18:54:16:138 INFO  Proposer:60 - Proposal: Edit:  SUCCESS PREPARED and ACCEPTED
+2022-05-02 18:54:16:352 INFO  Server:369 - Server 19001EDIT: SUCCESS
+2022-05-02 18:54:16:352 DEBUG RemoteStreamExporter:121 - Exporting remote object com.healthmarketscience.rmiio.SimpleRemoteInputStream@76d0df56
+2022-05-02 18:56:26:553 INFO  Client:644 - [d] - hello
+2022-05-02 18:56:26:563 INFO  Client:644 - [d] - hello
+2022-05-02 18:56:26:563 INFO  Client:644 - [d] - hello
+2022-05-02 18:57:06:026 DEBUG CentralServer:149 - Server 19001 is killed.
+2022-05-02 18:57:06:028 DEBUG Admin:49 - Server 19001 is killed.
+2022-05-02 18:57:27:563 INFO  Client:644 - [d] - bye
+2022-05-02 18:58:30:386 DEBUG CentralServer:130 - Server port: 19002is assigned to client.
+2022-05-02 18:58:30:388 INFO  Client:275 - Connected to server: 19002
+2022-05-02 18:59:04:676 INFO  Proposer:24 - Reqeust Received: CreateUser: f
+2022-05-02 18:59:04:676 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 18:59:04:676 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 18:59:04:676 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 18:59:04:676 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 18:59:04:676 INFO  Proposer:37 - Prepared count: 4
+2022-05-02 18:59:04:676 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 18:59:04:676 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 18:59:04:676 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 18:59:04:676 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 18:59:04:676 INFO  Proposer:53 - Acceptor count: 4
+2022-05-02 18:59:04:677 INFO  Proposer:60 - Proposal: CreateUser: f SUCCESS PREPARED and ACCEPTED
+2022-05-02 18:59:04:883 INFO  Server:218 - Server 19002CREATE_USER: SUCCESS
+2022-05-02 18:59:04:884 INFO  Server:219 - Create user succeed
+2022-05-02 18:59:04:886 INFO  Client:294 - User f registered successfully!
+2022-05-02 18:59:09:644 INFO  Proposer:24 - Reqeust Received: loginf
+2022-05-02 18:59:09:645 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 18:59:09:645 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 18:59:09:645 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 18:59:09:646 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 18:59:09:646 INFO  Proposer:37 - Prepared count: 4
+2022-05-02 18:59:09:646 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 18:59:09:646 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 18:59:09:646 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 18:59:09:647 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 18:59:09:647 INFO  Proposer:53 - Acceptor count: 4
+2022-05-02 18:59:09:647 INFO  Proposer:60 - Proposal: loginf SUCCESS PREPARED and ACCEPTED
+2022-05-02 18:59:09:658 INFO  Server:265 - Server 19002LOGIN: SUCCESS
+2022-05-02 18:59:09:659 INFO  Server:266 - New user logged in: f
+2022-05-02 18:59:09:661 INFO  Client:325 - Logged in successfully as f
+2022-05-02 18:59:18:033 INFO  Proposer:24 - Reqeust Received: Create_document: f
+2022-05-02 18:59:18:034 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 18:59:18:034 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 18:59:18:034 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 18:59:18:034 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 18:59:18:034 INFO  Proposer:37 - Prepared count: 4
+2022-05-02 18:59:18:034 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 18:59:18:034 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 18:59:18:034 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 18:59:18:034 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 18:59:18:034 INFO  Proposer:53 - Acceptor count: 4
+2022-05-02 18:59:18:034 INFO  Proposer:60 - Proposal: Create_document: f SUCCESS PREPARED and ACCEPTED
+2022-05-02 18:59:18:042 INFO  Server:482 - Server 19002CREATE_DOCUMENT: SUCCESS
+2022-05-02 18:59:18:042 INFO  Server:483 - File successfully created: mike
+2022-05-02 18:59:18:043 INFO  Client:378 - Successfully create a new document.
+2022-05-02 19:03:19:762 DEBUG RemoteStreamExporter:162 - Unexporting remote object com.healthmarketscience.rmiio.SimpleRemoteInputStream@173347c8
+2022-05-02 19:04:16:326 INFO  Client:60 - marc3 is shutting down...
+2022-05-02 19:04:24:422 INFO  Client:60 - marc2 is shutting down...
+2022-05-02 19:04:29:313 INFO  Client:60 - marc is shutting down...
+2022-05-02 19:04:32:621 INFO  Server:94 - Server 19003 is shutting down...
+2022-05-02 19:04:32:622 INFO  Server:94 - Server 19001 is shutting down...
+2022-05-02 19:04:32:622 INFO  Server:94 - Server 19002 is shutting down...
+2022-05-02 19:04:32:621 INFO  Server:94 - Server 19004 is shutting down...
+2022-05-02 19:04:32:621 INFO  Server:94 - Server 19005 is shutting down...
+2022-05-02 20:00:02:555 DEBUG CentralServer:114 - Central Server Coordinator 19000 is running...
+2022-05-02 20:00:02:578 DEBUG CentralServer:53 - Server  at port 19001 is running...
+2022-05-02 20:00:02:579 DEBUG CentralServer:53 - Server  at port 19002 is running...
+2022-05-02 20:00:02:580 DEBUG CentralServer:53 - Server  at port 19003 is running...
+2022-05-02 20:00:02:581 DEBUG CentralServer:53 - Server  at port 19004 is running...
+2022-05-02 20:00:02:583 DEBUG CentralServer:53 - Server  at port 19005 is running...
+2022-05-02 20:00:14:234 DEBUG CentralServer:130 - Server port: 19001is assigned to client.
+2022-05-02 20:00:14:237 INFO  Client:249 - Connected to server: 19001
+2022-05-02 20:00:20:272 INFO  Client:109 - Client Command Summary:
+  help: to show this help message
+
+  register DOCTOR PWD: to register a new account with doctorName DOCTOR and password PWD
+  login DOCTOR PWD: to login using doctorName DOCTOR and PWD credentials
+  create PATIENT_FILE SECTION: to create a new file PATIENT_FILE and contains SECTION sections
+  edit PATIENT_FILE SECTION: to edit the section of patient file
+  stopedit: to stop the current editing session if exists
+  showsec PATIENT_FILE SECTION: to download the content of the SECTION section of patient file
+  showdoc DOC: to download the entire patient file with all sections 
+  logout: to logout
+  list: to list all the accessible and editable patient files
+  share DOCTOR PATIENT_FILE: to share a patient file with another doctor
+  news: to get all the news
+  unread: to retrieve all the unread chat messages
+  send TEXT: to send the TEXT message regarding the document being edited
+  
+2022-05-02 20:00:29:348 INFO  Proposer:24 - Reqeust Received: CreateUser: A
+2022-05-02 20:00:29:349 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 20:00:29:350 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 20:00:29:350 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 20:00:29:350 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 20:00:29:350 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 20:00:29:351 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 20:00:29:351 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 20:00:29:351 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 20:00:29:352 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 20:00:29:353 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 20:00:29:353 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 20:00:29:353 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 20:00:29:354 INFO  Proposer:60 - Proposal: CreateUser: A SUCCESS PREPARED and ACCEPTED
+2022-05-02 20:00:29:397 INFO  Server:211 - Server 19001CREATE_USER: SUCCESS
+2022-05-02 20:00:29:397 INFO  Server:212 - Create user succeed
+2022-05-02 20:00:29:401 INFO  Client:268 - User A registered successfully!
+2022-05-02 20:00:38:005 INFO  Proposer:24 - Reqeust Received: loginA
+2022-05-02 20:00:38:006 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 20:00:38:006 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 20:00:38:006 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 20:00:38:006 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 20:00:38:006 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 20:00:38:006 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 20:00:38:007 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 20:00:38:007 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 20:00:38:007 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 20:00:38:007 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 20:00:38:007 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 20:00:38:007 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 20:00:38:008 INFO  Proposer:60 - Proposal: loginA SUCCESS PREPARED and ACCEPTED
+2022-05-02 20:00:38:034 INFO  Server:258 - Server 19001LOGIN: SUCCESS
+2022-05-02 20:00:38:035 INFO  Server:259 - New user logged in: A
+2022-05-02 20:00:38:038 INFO  Client:299 - Logged in successfully as A
+2022-05-02 20:00:46:586 INFO  Proposer:24 - Reqeust Received: Create_document: A
+2022-05-02 20:00:46:586 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 20:00:46:586 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 20:00:46:586 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 20:00:46:586 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 20:00:46:587 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 20:00:46:587 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 20:00:46:587 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 20:00:46:587 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 20:00:46:587 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 20:00:46:587 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 20:00:46:588 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 20:00:46:588 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 20:00:46:588 INFO  Proposer:60 - Proposal: Create_document: A SUCCESS PREPARED and ACCEPTED
+2022-05-02 20:00:46:607 INFO  Server:475 - Server 19001CREATE_DOCUMENT: SUCCESS
+2022-05-02 20:00:46:607 INFO  Server:476 - File successfully created: Andy
+2022-05-02 20:00:46:608 INFO  Client:352 - Successfully create a new document.
+2022-05-02 20:00:54:901 DEBUG Client:230 - Unsupported arguments. Please try again.
+2022-05-02 20:01:42:114 INFO  Proposer:24 - Reqeust Received: Edit: 
+2022-05-02 20:01:42:115 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 20:01:42:116 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 20:01:42:116 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 20:01:42:116 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 20:01:42:116 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 20:01:42:116 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 20:01:42:116 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 20:01:42:117 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 20:01:42:117 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 20:01:42:117 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 20:01:42:117 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 20:01:42:117 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 20:01:42:118 INFO  Proposer:60 - Proposal: Edit:  SUCCESS PREPARED and ACCEPTED
+2022-05-02 20:01:42:157 INFO  Server:362 - Server 19001EDIT: SUCCESS
+2022-05-02 20:01:42:159 INFO  RemoteStreamExporter:77 - Using stream exporter com.healthmarketscience.rmiio.exporter.DefaultRemoteStreamExporter
+2022-05-02 20:01:42:160 DEBUG RemoteStreamExporter:121 - Exporting remote object com.healthmarketscience.rmiio.SimpleRemoteInputStream@745fc195
+2022-05-02 20:02:31:400 INFO  Proposer:24 - Reqeust Received: Edit: 
+2022-05-02 20:02:31:400 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 20:02:31:400 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 20:02:31:401 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 20:02:31:401 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 20:02:31:401 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 20:02:31:401 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 20:02:31:402 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 20:02:31:402 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 20:02:31:402 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 20:02:31:402 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 20:02:31:403 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 20:02:31:403 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 20:02:31:403 INFO  Proposer:60 - Proposal: Edit:  SUCCESS PREPARED and ACCEPTED
+2022-05-02 20:02:31:416 INFO  Server:362 - Server 19001EDIT: SUCCESS
+2022-05-02 20:02:31:417 DEBUG RemoteStreamExporter:121 - Exporting remote object com.healthmarketscience.rmiio.SimpleRemoteInputStream@583d6f14
+2022-05-02 20:07:21:226 DEBUG CentralServer:130 - Server port: 19001is assigned to client.
+2022-05-02 20:07:21:228 INFO  Client:249 - Connected to server: 19001
+2022-05-02 20:07:35:962 INFO  Proposer:24 - Reqeust Received: CreateUser: B
+2022-05-02 20:07:35:963 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 20:07:35:963 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 20:07:35:963 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 20:07:35:963 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 20:07:35:964 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 20:07:35:964 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 20:07:35:964 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 20:07:35:964 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 20:07:35:964 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 20:07:35:964 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 20:07:35:965 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 20:07:35:965 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 20:07:35:965 INFO  Proposer:60 - Proposal: CreateUser: B SUCCESS PREPARED and ACCEPTED
+2022-05-02 20:07:35:973 INFO  Server:211 - Server 19001CREATE_USER: SUCCESS
+2022-05-02 20:07:35:973 INFO  Server:212 - Create user succeed
+2022-05-02 20:07:35:976 INFO  Client:268 - User B registered successfully!
+2022-05-02 20:08:04:575 INFO  Proposer:24 - Reqeust Received: loginB
+2022-05-02 20:08:04:576 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 20:08:04:576 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 20:08:04:576 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 20:08:04:576 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 20:08:04:576 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 20:08:04:577 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 20:08:04:577 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 20:08:04:577 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 20:08:04:577 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 20:08:04:577 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 20:08:04:577 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 20:08:04:578 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 20:08:04:578 INFO  Proposer:60 - Proposal: loginB SUCCESS PREPARED and ACCEPTED
+2022-05-02 20:08:04:591 INFO  Server:258 - Server 19001LOGIN: SUCCESS
+2022-05-02 20:08:04:591 INFO  Server:259 - New user logged in: B
+2022-05-02 20:08:04:594 INFO  Client:299 - Logged in successfully as B
+2022-05-02 20:08:15:830 INFO  Proposer:24 - Reqeust Received: Create_document: B
+2022-05-02 20:08:15:831 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 20:08:15:831 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 20:08:15:831 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 20:08:15:832 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 20:08:15:832 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 20:08:15:832 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 20:08:15:833 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 20:08:15:833 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 20:08:15:833 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 20:08:15:833 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 20:08:15:833 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 20:08:15:833 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 20:08:15:833 INFO  Proposer:60 - Proposal: Create_document: B SUCCESS PREPARED and ACCEPTED
+2022-05-02 20:08:15:843 INFO  Server:475 - Server 19001CREATE_DOCUMENT: SUCCESS
+2022-05-02 20:08:15:843 INFO  Server:476 - File successfully created: Mike
+2022-05-02 20:08:15:843 INFO  Client:352 - Successfully create a new document.
+2022-05-02 20:08:22:935 INFO  Proposer:24 - Reqeust Received: Edit: 
+2022-05-02 20:08:22:935 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 20:08:22:935 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 20:08:22:936 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 20:08:22:936 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 20:08:22:936 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 20:08:22:936 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 20:08:22:936 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 20:08:22:936 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 20:08:22:936 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 20:08:22:937 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 20:08:22:937 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 20:08:22:937 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 20:08:22:937 INFO  Proposer:60 - Proposal: Edit:  SUCCESS PREPARED and ACCEPTED
+2022-05-02 20:08:22:943 INFO  Server:362 - Server 19001EDIT: SUCCESS
+2022-05-02 20:08:22:943 DEBUG RemoteStreamExporter:121 - Exporting remote object com.healthmarketscience.rmiio.SimpleRemoteInputStream@7780fc90
+2022-05-02 20:09:11:638 DEBUG Client:230 - Unsupported arguments. Please try again.
+2022-05-02 20:09:32:605 INFO  Server:525 - Server 19001SHOW_SECTION: SUCCESS
+2022-05-02 20:09:32:605 INFO  Server:529 - Server 19001SHOW_SECTION: SUCCESS
+2022-05-02 20:09:32:606 DEBUG RemoteStreamExporter:121 - Exporting remote object com.healthmarketscience.rmiio.SimpleRemoteInputStream@597d9b63
+2022-05-02 20:09:32:608 ERROR Client:476 - A is editing the section right now
+2022-05-02 20:09:45:620 INFO  Server:525 - Server 19001SHOW_SECTION: SUCCESS
+2022-05-02 20:09:45:620 DEBUG RemoteStreamExporter:121 - Exporting remote object com.healthmarketscience.rmiio.SimpleRemoteInputStream@453b61ca
+2022-05-02 20:09:45:624 ERROR Client:477 - No one is editing this section
+2022-05-02 20:13:09:474 DEBUG RemoteStreamExporter:162 - Unexporting remote object com.healthmarketscience.rmiio.SimpleRemoteInputStream@745fc195
+2022-05-02 20:13:09:474 DEBUG RemoteStreamExporter:162 - Unexporting remote object com.healthmarketscience.rmiio.SimpleRemoteInputStream@453b61ca
+2022-05-02 20:13:09:474 DEBUG RemoteStreamExporter:162 - Unexporting remote object com.healthmarketscience.rmiio.SimpleRemoteInputStream@583d6f14
+2022-05-02 20:13:09:474 DEBUG RemoteStreamExporter:162 - Unexporting remote object com.healthmarketscience.rmiio.SimpleRemoteInputStream@597d9b63
+2022-05-02 20:13:10:531 INFO  Server:599 - Server 19001LIST: SUCCESS
+2022-05-02 20:13:10:531 INFO  Client:510 - Andy
+2022-05-02 20:15:01:990 DEBUG RemoteStreamExporter:121 - Exporting remote object com.healthmarketscience.rmiio.SimpleRemoteInputStream@5686faad
+2022-05-02 20:15:01:993 INFO  Client:562 - These are the on editing sections: 0,1
+2022-05-02 20:19:44:208 INFO  Client:60 - Sara is shutting down...
+2022-05-02 20:19:44:209 DEBUG RemoteStreamExporter:162 - Unexporting remote object com.healthmarketscience.rmiio.SimpleRemoteInputStream@7780fc90
+2022-05-02 20:19:46:822 INFO  Client:60 - marc is shutting down...
+2022-05-02 20:19:50:697 INFO  Server:87 - Server 19003 is shutting down...
+2022-05-02 20:19:50:697 INFO  Server:87 - Server 19001 is shutting down...
+2022-05-02 20:19:50:697 INFO  Server:87 - Server 19004 is shutting down...
+2022-05-02 20:19:50:697 INFO  Server:87 - Server 19005 is shutting down...
+2022-05-02 20:19:50:697 INFO  Server:87 - Server 19002 is shutting down...
+2022-05-02 20:20:12:247 DEBUG CentralServer:114 - Central Server Coordinator 19000 is running...
+2022-05-02 20:20:12:288 DEBUG CentralServer:53 - Server  at port 19001 is running...
+2022-05-02 20:20:12:296 DEBUG CentralServer:53 - Server  at port 19002 is running...
+2022-05-02 20:20:12:302 DEBUG CentralServer:53 - Server  at port 19003 is running...
+2022-05-02 20:20:12:308 DEBUG CentralServer:53 - Server  at port 19004 is running...
+2022-05-02 20:20:12:314 DEBUG CentralServer:53 - Server  at port 19005 is running...
+2022-05-02 20:20:30:313 DEBUG CentralServer:130 - Server port: 19001is assigned to client.
+2022-05-02 20:20:30:316 INFO  Client:227 - Connected to server: 19001
+2022-05-02 20:20:39:313 INFO  Client:107 - Client Command Summary:
+  help: to show this help message
+
+  register DOCTOR PWD: to register a new account with doctorName DOCTOR and password PWD
+  login DOCTOR PWD: to login using doctorName DOCTOR and PWD credentials
+  create PATIENT_FILE SECTION: to create a new file PATIENT_FILE and contains SECTION sections
+  edit PATIENT_FILE SECTION: to edit the section of patient file
+  stopedit: to stop the current editing session if exists
+  logout: to logout
+  list: to list all the accessible and editable patient files
+  share DOCTOR PATIENT_FILE: to share a patient file with another doctor
+  news: to get all the news
+  unread: to retrieve all the unread chat messages
+  send TEXT: to send the TEXT message regarding the document being edited
+  
+2022-05-02 20:20:45:147 INFO  Proposer:24 - Reqeust Received: CreateUser: a
+2022-05-02 20:20:45:148 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 20:20:45:149 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 20:20:45:149 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 20:20:45:149 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 20:20:45:149 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 20:20:45:150 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 20:20:45:150 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 20:20:45:151 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 20:20:45:153 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 20:20:45:153 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 20:20:45:153 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 20:20:45:154 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 20:20:45:155 INFO  Proposer:60 - Proposal: CreateUser: a SUCCESS PREPARED and ACCEPTED
+2022-05-02 20:20:45:195 INFO  Server:211 - Server 19001CREATE_USER: SUCCESS
+2022-05-02 20:20:45:196 INFO  Server:212 - Create user succeed
+2022-05-02 20:20:45:199 INFO  Client:246 - User a registered successfully!
+2022-05-02 20:20:49:411 INFO  Proposer:24 - Reqeust Received: logina
+2022-05-02 20:20:49:412 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 20:20:49:412 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 20:20:49:413 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 20:20:49:413 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 20:20:49:413 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 20:20:49:413 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 20:20:49:414 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 20:20:49:414 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 20:20:49:414 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 20:20:49:414 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 20:20:49:415 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 20:20:49:415 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 20:20:49:415 INFO  Proposer:60 - Proposal: logina SUCCESS PREPARED and ACCEPTED
+2022-05-02 20:20:49:440 INFO  Server:258 - Server 19001LOGIN: SUCCESS
+2022-05-02 20:20:49:441 INFO  Server:259 - New user logged in: a
+2022-05-02 20:20:49:443 INFO  Client:277 - Logged in successfully as a
+2022-05-02 20:20:58:412 ERROR Client:327 - Document already exists.
+2022-05-02 20:21:04:937 ERROR Client:359 - You do not have access.
+2022-05-02 20:21:16:936 ERROR Client:359 - You do not have access.
+2022-05-02 20:21:40:816 INFO  Proposer:24 - Reqeust Received: Create_document: a
+2022-05-02 20:21:40:817 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 20:21:40:817 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 20:21:40:817 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 20:21:40:817 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 20:21:40:817 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 20:21:40:817 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 20:21:40:818 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 20:21:40:818 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 20:21:40:818 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 20:21:40:818 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 20:21:40:818 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 20:21:40:819 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 20:21:40:819 INFO  Proposer:60 - Proposal: Create_document: a SUCCESS PREPARED and ACCEPTED
+2022-05-02 20:21:40:850 INFO  Server:475 - Server 19001CREATE_DOCUMENT: SUCCESS
+2022-05-02 20:21:40:850 INFO  Server:476 - File successfully created: bb
+2022-05-02 20:21:40:851 INFO  Client:330 - Successfully create a new document.
+2022-05-02 20:21:46:967 INFO  Proposer:24 - Reqeust Received: Edit: 
+2022-05-02 20:21:46:968 INFO  Acceptor:52 - Server 19001 is successfully PREPARED
+2022-05-02 20:21:46:968 INFO  Acceptor:52 - Server 19002 is successfully PREPARED
+2022-05-02 20:21:46:968 INFO  Acceptor:52 - Server 19003 is successfully PREPARED
+2022-05-02 20:21:46:968 INFO  Acceptor:52 - Server 19004 is successfully PREPARED
+2022-05-02 20:21:46:969 INFO  Acceptor:52 - Server 19005 is successfully PREPARED
+2022-05-02 20:21:46:969 INFO  Proposer:37 - Prepared count: 5
+2022-05-02 20:21:46:969 INFO  Acceptor:82 - Server 19001 ACCEPT
+2022-05-02 20:21:46:969 INFO  Acceptor:82 - Server 19002 ACCEPT
+2022-05-02 20:21:46:969 INFO  Acceptor:82 - Server 19003 ACCEPT
+2022-05-02 20:21:46:969 INFO  Acceptor:82 - Server 19004 ACCEPT
+2022-05-02 20:21:46:970 INFO  Acceptor:82 - Server 19005 ACCEPT
+2022-05-02 20:21:46:970 INFO  Proposer:53 - Acceptor count: 5
+2022-05-02 20:21:46:970 INFO  Proposer:60 - Proposal: Edit:  SUCCESS PREPARED and ACCEPTED
+2022-05-02 20:21:47:004 INFO  Server:362 - Server 19001EDIT: SUCCESS
+2022-05-02 20:21:47:007 INFO  RemoteStreamExporter:77 - Using stream exporter com.healthmarketscience.rmiio.exporter.DefaultRemoteStreamExporter
+2022-05-02 20:21:47:007 DEBUG RemoteStreamExporter:121 - Exporting remote object com.healthmarketscience.rmiio.SimpleRemoteInputStream@22bcfc54
+2022-05-02 20:23:54:546 INFO  Client:60 - marc is shutting down...
+2022-05-02 20:23:57:339 INFO  Server:87 - Server 19004 is shutting down...
+2022-05-02 20:23:57:340 INFO  Server:87 - Server 19005 is shutting down...
+2022-05-02 20:23:57:340 INFO  Server:87 - Server 19001 is shutting down...
+2022-05-02 20:23:57:339 INFO  Server:87 - Server 19002 is shutting down...
+2022-05-02 20:23:57:339 INFO  Server:87 - Server 19003 is shutting down...
